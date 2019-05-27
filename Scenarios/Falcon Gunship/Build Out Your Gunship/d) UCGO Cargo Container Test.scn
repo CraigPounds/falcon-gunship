@@ -7,6 +7,21 @@ http://orbiter.dansteph.com/forum/index.php?page=download
 UCGO Cargo Container
 
 https://www.orbithangar.com/searchid.php?ID=4657
+
+
+Press F3 to switch focus to CARGO vessel (for Orbiter 2016, press F3, select FalconGunship then select attached CARGO vessel).
+
+
+Cargo controls:
+
+
+k = open / close container doors
+
+c / Shift + c = grapple / release cargo
+
+9 / Shift + 9 = select / add cargo from disk
+
+8 = information on cargo
 END_DESC
 
 BEGIN_ENVIRONMENT
@@ -27,23 +42,9 @@ BEGIN_CAMERA
 END_CAMERA
 
 BEGIN_HUD
-  TYPE Surface
+  TYPE Docking
+  NAV 0
 END_HUD
-
-BEGIN_MFD Left
-  TYPE Surface
-  SPDMODE 1
-END_MFD
-
-BEGIN_MFD Right
-  TYPE Map
-  REF Earth
-  POS 0.00 0.00
-  DISP 46255
-END_MFD
-
-BEGIN_VC
-END_VC
 
 BEGIN_SHIPS
 CARGO:XR5_UCGO_TEU1

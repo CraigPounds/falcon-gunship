@@ -30,7 +30,7 @@ You will need to move these to <Orbiter Path>\Script\BombsightMFD\ & <Orbiter Pa
 
 WARNING! If you have already customized <Orbiter Path>\Script\BombsightMFD\CreatePylonAttchs.lua or <Orbiter Path>\Script\GunShipMFD\CreateGunAttchs.lua be sure to back them up first!
 
-Otherwise edit these files yourself using the examples from <Orbiter Path>\add-on docs\Falcon Gunship.
+Otherwise edit these files yourself using the examples from <Orbiter Path>\add-on docs\Falcon Gunship\.
 
 
 ...
@@ -49,15 +49,23 @@ https://www.orbithangar.com/searchid.php?ID=7044
 Universal Remote Manipulator System
 http://www.orbithangar.com/searchid.php?ID=3373
 
-*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed.
-
-To make the provided scenarios compatible with Orbiter 2010 you will need to manually change the URMS attachment point in the scenario files from
+*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from
 
 ATTACHED 0:3,FalconGunship
 
 to
 
-ATTACHED 0:4,FalconGunship.
+ATTACHED 0:4,FalconGunship
+
+This breaks the saved scenario :(
+
+Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from
+
+ATTACHED 0:3,FalconGunship
+
+to
+
+ATTACHED 0:4,FalconGunship
 
 
 ...

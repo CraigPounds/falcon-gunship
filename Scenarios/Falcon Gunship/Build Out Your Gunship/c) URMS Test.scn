@@ -4,10 +4,20 @@ Universal Remote Manipulator System
 http://www.orbithangar.com/searchid.php?ID=3373
 
 
-*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed.
+*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
 
 
-**To make this scenario compatible with Orbiter 2010, edit RMS:URMS from 
+ATTACHED 0:3,FalconGunship
+
+to
+
+ATTACHED 0:4,FalconGunship
+
+
+This breaks the saved scenario :(
+
+
+Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
 
 
 ATTACHED 0:3,FalconGunship
@@ -19,39 +29,24 @@ END_DESC
 
 BEGIN_ENVIRONMENT
   System Sol
-  Date MJD 56284.7499937854
+  Date MJD 56284.7512208977
 END_ENVIRONMENT
 
 BEGIN_FOCUS
-  Ship FalconGunship
+  Ship RMS
 END_FOCUS
 
 BEGIN_CAMERA
-  TARGET FalconGunship
+  TARGET RMS
   MODE Extern
-  POS 3.399147 125.462879 -3.482821
-  TRACKMODE TargetRelative
+  POS 16.11 -126.34 -4.46
+  TRACKMODE AbsoluteDirection
   FOV 40.00
 END_CAMERA
 
 BEGIN_HUD
   TYPE Surface
 END_HUD
-
-BEGIN_MFD Left
-  TYPE Surface
-  SPDMODE 1
-END_MFD
-
-BEGIN_MFD Right
-  TYPE Map
-  REF Earth
-  POS 0.00 0.00
-  DISP 46255
-END_MFD
-
-BEGIN_VC
-END_VC
 
 BEGIN_SHIPS
 FalconGunship:FalconGunship
@@ -75,27 +70,29 @@ FalconGunship:FalconGunship
   SEQ 7 -2 0.006296
 END
 RMS:URMS
-  STATUS Orbiting Earth
+  STATUS Landed Earth
+  POS -80.6798452 28.5996327
+  HEADING 322.11
   ATTACHED 0:3,FalconGunship
   AFCMODE 7
   NAVFREQ 0 0
-  MAIN_STATUS 0
+  MAIN_STATUS 2
   JOYSTICK_STATUS 1
   JOYSTICK_CFG 1
   PLATFORM_MESH 2
-  CORE_NAME FalconGunship	
+  CORE_NAME FalconGunship
   CORE_PARAMS 11.6500 1.9000 -4.6500 5.2100 0.9000 -4.6500 1.00000
   ORIENTATION 0.00000 -1.00000 -0.00000 -1.00000 0.00000 0.00000
   CAMERA_STATUS 2
   SCALE_FACTOR 1.0000
-  LIN_PARAMS 0 6.5172 0.0000
+  LIN_PARAMS 2 0.0000 0.0000
   ROOT_ROT 0 0.0000 0.0000
-  SHOULDER_ROT 0 14.0000 0.0000
-  ELBOW_ROT 0 0.0000 0.0000
+  SHOULDER_ROT 2 41.6063 0.0000
+  ELBOW_ROT 2 84.6050 0.0000
   WRIST_ROT_H 0 104.0000 0.0000
   WRIST_ROT_V 0 104.0000 0.0000
   WRIST_ROT_R 0 0.0000 0.0000
-  CARGO_PARAMS -9.94 6.19 64.75
+  CARGO_PARAMS -1.56 2.85 -1.52
   FLASH_OFF 1
   IK_PARAMS 0 0.00000 0.00000 0.000
 END
@@ -107,7 +104,8 @@ DGS-01:DG-S
   PRPLEVEL 0:1.000000 1:1.000000
   NAVFREQ 0 0 0 0
   XPDR 0
-  GEAR 1 1.0000
+  GEAR 1 0.0000
+  TANKCONFIG 1
   AAP 0:0 0:0 0:0
 END
 SH-01:ShuttleA
@@ -126,8 +124,8 @@ SH-01:ShuttleA
 END
 PB-01:ShuttlePB
   STATUS Landed Earth
-  POS -80.6831600 28.5978100
-  HEADING 330.00
+  POS -80.6799600 28.5997400
+  HEADING 232.11
   AFCMODE 7
   PRPLEVEL 0:1.000000
   NAVFREQ 0 0
