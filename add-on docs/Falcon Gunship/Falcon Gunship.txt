@@ -72,8 +72,7 @@ http://www.orbithangar.com/searchid.php?ID=2740 and Vinka's Spacecraft http://fr
 
 The atmospheric flight model is based largely on the Cactus Kitten https://www.orbithangar.com/searchid.php?ID=2186  I did use Shipedit.exe to get COG, CROSS_SECTION, PMI and then promptly fudged with the results. Actually, I made a copy of the mesh without the radar dish or turrets, ran the numbers on that and then sculpted them further still, using a math I call "I want this".
 
-Special thanks to ->
-
+Also, special thanks to
 
 ar81
 
@@ -89,24 +88,20 @@ https://www.orbithangar.com/searchid.php?ID=2730
 Anim8or tutorial: How to make a building (Lesson 3)
 https://www.orbithangar.com/searchid.php?ID=2731
 
-
 kev shanow
 
 Add-on Tutorial 
 https://www.orbithangar.com/searchid.php?ID=1297
-
 
 Radu094
 
 MeshMaker 2.1
 https://www.orbithangar.com/search_quick.php?text=MeshMaker&submit.x=20&submit.y=3
 
-
 zatnikitelman
 
 Anim8orto3ds2msh
 https://www.orbithangar.com/searchid.php?ID=3397
-
 
 Steve Glanville
 
