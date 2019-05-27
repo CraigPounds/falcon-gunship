@@ -1,0 +1,102 @@
+BEGIN_DESC
+Adapted from Beep's GunshipMFD Air to Air Test scenario...
+
+
+AA-Missile 0.98
+
+https://www.orbithangar.com/searchid.php?ID=3324
+
+
+Add these lines to the end of Config\MissileAttachment\MissileAttachment.cfg
+
+
+BEGIN_FalconGunship
+
+   AIM120_1_POS  0.0 -0.7 4.7
+
+END_FalconGunship
+
+
+*Missile MFD is not open at start - there seems to be a bug if it is loaded at the beginning of the simulation.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System Sol
+  Date MJD 51982.6968785475
+  Script GunshipMFD/LoadFalconGunship
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship FalconGunship
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET FalconGunship
+  MODE Cockpit
+  FOV 50.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Docking
+  NAV 0
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+BEGIN_SHIPS
+DG-01:Deltaglider
+  STATUS Orbiting Earth
+  RPOS 5318282.206 3502491.393 -340802.424
+  RVEL 131.8580 -117.9935 693.2107
+  AROT 7.152 -1.533 98.855
+  VROT 1.1319 -1.0485 -0.0085
+  AFCMODE 7
+  PRPLEVEL 0:0.691474 1:0.998324
+  THLEVEL 0:0.768908 1:0.768908
+  NAVFREQ 0 0 0 0
+  XPDR 0
+  HOVERHOLD 0 1 0.0000e+000 0.0000e+000
+  TRIM 0.436020
+  AAP 0:0 0:0 0:0
+END
+DG-02:Deltaglider
+  STATUS Orbiting Earth
+  RPOS 5318413.900 3502225.665 -341980.177
+  RVEL 123.4391 -94.5329 695.4528
+  AROT 10.994 -0.118 100.597
+  VROT 1.2513 -1.0617 -0.0090
+  AFCMODE 7
+  PRPLEVEL 0:0.652886 1:0.971469
+  THLEVEL 0:0.797725 1:0.797725
+  NAVFREQ 0 0 0 0
+  XPDR 0
+  HOVERHOLD 0 1 0.0000e+000 0.0000e+000
+  TRIM 0.441568
+  AAP 0:0 0:0 0:0
+END
+FalconGunship:FalconGunship
+  STATUS Orbiting Earth
+  RPOS 5318402.140 3502216.073 -342032.475
+  RVEL 110.4061 -100.3269 656.9077
+  AROT 13.784 2.941 101.174
+  VROT -0.0455 -0.0134 0.3354
+  AFCMODE 7
+  PRPLEVEL 0:0.992736
+  IDS 0:588 100 1:586 100
+  NAVFREQ 562 560
+  XPDR 522
+  CONFIGURATION 1
+  CURRENT_PAYLOAD 0
+  SEQ 0 -2 0.000000
+  SEQ 1 -2 0.000000
+  SEQ 2 -2 0.000000
+  SEQ 3 2 1.000000
+  SEQ 4 -2 0.002571
+  SEQ 5 -2 0.000000
+  SEQ 6 -2 0.002593
+  SEQ 7 -2 0.006296
+END
+END_SHIPS

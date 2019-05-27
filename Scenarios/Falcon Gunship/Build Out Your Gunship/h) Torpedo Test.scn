@@ -1,0 +1,278 @@
+BEGIN_DESC
+Once installed, 'space torpedoes' will be available in any Falcon Gunship scenario...
+
+
+Add the following payload to the end of
+
+<Orbiter Path>\Config\Spacecraft\FalconGunship.ini
+
+
+[PAYLOAD_0]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+[PAYLOAD_1]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+[PAYLOAD_2]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+[PAYLOAD_3]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+[PAYLOAD_4]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+[PAYLOAD_5]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+[PAYLOAD_6]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+[PAYLOAD_7]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+[PAYLOAD_8]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+[PAYLOAD_9]
+
+MESHNAME=Bomb
+
+NAME=Bomb
+
+OFF=(0,0,0)
+
+MASS=33
+
+MODULE=Bomb
+
+SPEED=(0,0,1800)
+
+ROT_SPEED=(0,0,150)
+
+
+Press 'j' to jettison torpedo.
+
+
+Detonate remotely with BombMDF3 (required for this to work)
+
+https://www.orbithangar.com/searchid.php?ID=3059
+
+
+Target and synchronize detonation with SensorMFD V0.5.1b
+
+https://www.orbithangar.com/searchid.php?ID=1092
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System Sol
+  Date MJD 51983.0590327021
+  Script GunshipMFD/LoadFalconGunship
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship FalconGunship
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET FalconGunship
+  MODE Cockpit
+  FOV 40.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Docking
+  NAV 0
+END_HUD
+
+BEGIN_SHIPS
+FalconGunship:FalconGunship
+  STATUS Orbiting Earth
+  RPOS 3224580.11 5486658.26 -2192492.37
+  RVEL 6601.243 -3958.740 -192.120
+  AROT -95.59 77.93 -128.02
+  RCSMODE 2
+  PRPLEVEL 0:0.992736
+  THLEVEL 1:0.000015 2:0.000015 15:0.000015 18:0.000015
+  IDS 0:588 100 1:586 100
+  NAVFREQ 562 560
+  XPDR 522
+  RCS 1
+  CTRL_SURFACE 1
+  CONFIGURATION 1
+  CURRENT_PAYLOAD 0
+  SEQ 0 -2 0.002828
+  SEQ 1 -2 0.008665
+  SEQ 2 -2 0.016740
+  SEQ 3 2 0.998680
+  SEQ 4 -2 0.002571
+  SEQ 5 -2 0.000000
+  SEQ 6 -2 0.002593
+  SEQ 7 -2 0.006296
+END
+ISS:ProjectAlpha_ISS
+  STATUS Orbiting Earth
+  RPOS 3223007.69 5486404.33 -2192437.92
+  RVEL 6601.212 -3958.805 -192.088
+  AROT -56.97 -39.10 -55.74
+  AFCMODE 5
+  PRPLEVEL 0:0.998628
+  IDS 0:588 100 1:586 100 2:584 100 3:582 100 4:580 100
+  NAVFREQ 0 0
+  XPDR 466
+END
+SH-01:ShuttleA
+  STATUS Orbiting Earth
+  RPOS 3223198.58 5486383.83 -2192502.09
+  RVEL 6601.246 -3958.780 -192.103
+  AROT 18.68 70.71 -28.60
+  RCSMODE 2
+  AFCMODE 7
+  PRPLEVEL 0:1.000000 1:0.996995
+  NAVFREQ 0 0
+  XPDR 0
+  PODANGLE 0.0000 0.0000
+  DOCKSTATE 1 1.0000
+  AIRLOCK 0 0.0000
+  GEAR 1 1.0000
+  PAYLOAD MASS 0.8 0
+END
+Luna:Wheel
+  STATUS Orbiting Moon
+  RPOS -1300570.44 -612372.92 1443718.31
+  RVEL 1183.207 -190.175 985.096
+  AROT 13.70 -14.97 -13.12
+  VROT -0.00 -0.00 10.00
+  AFCMODE 7
+  IDS 0:560 100 1:564 100
+  NAVFREQ 0 0
+  XPDR 494
+END
+Mir:Mir
+  STATUS Orbiting Jupiter
+  RPOS 553709299.46 12933389.70 376820679.30
+  RVEL -13820.527 -1373.920 14676.067
+  AROT -19.31 52.81 -21.75
+  AFCMODE 7
+  IDS 0:540 100 1:542 100 2:544 100
+  NAVFREQ 0 0
+  XPDR 482
+END
+END_SHIPS
