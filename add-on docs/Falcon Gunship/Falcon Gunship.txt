@@ -72,7 +72,7 @@ http://www.orbithangar.com/searchid.php?ID=2740 and Vinka's Spacecraft http://fr
 
 The atmospheric flight model is based largely on the Cactus Kitten https://www.orbithangar.com/searchid.php?ID=2186  I did use Shipedit.exe to get COG, CROSS_SECTION, PMI and then promptly fudged with the results. Actually, I made a copy of the mesh without the radar dish or turrets, ran the numbers on that and then sculpted them further still, using a math I call "I want this".
 
-Also, special thanks to
+Also thank you
 
 ar81
 
@@ -110,3 +110,11 @@ http://www.anim8or.com/
 
 
 ...
+
+
+Tooling Around Some Stardestroyers . . .
+https://www.youtube.com/watch?v=yXQz-VU5iVc
+
+Tooling Around HUD View.avi
+https://www.youtube.com/watch?v=v_5fA85qGcU
+
