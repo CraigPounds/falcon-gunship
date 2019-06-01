@@ -13,7 +13,30 @@ RMS:URMS
 *Adapted from Beep's  DG Against Defenders AGM_88 scenario.
 
 
-Defenders test and demonstration. There are two of them west, just ahead. It's better to use ECM MFD to locate RF threat sources and tune the missiles. Double click 'JAM' on the ECM MFD to turn off your transponder and stop giving clues of your position to the defenders. Check Bombsight MFD documentation for the use of ECM MFD and AGM 88 HARM missiles.Using ECM MFD Jamming improves the chance you are not tracked or hit but exposes you to the defenders' Radar Warning Receiver. Using the Ground Radar exposes you as well. The longer you are tracked the more the enemy gets aware of your presence and becomes smarter. 
+Defenders test and demonstration. There are two of them west, just ahead. It's better to use ECM MFD to locate RF threat sources and tune the missiles. Double click 'JAM' on the ECM MFD to turn off your transponder and stop giving clues of your position to the defenders. Check Bombsight MFD documentation for the use of ECM MFD and AGM 88 HARM missiles.Using ECM MFD Jamming improves the chance you are not tracked or hit but exposes you to the defenders' Radar Warning Receiver. Using the Ground Radar exposes you as well. The longer you are tracked the more the enemy gets aware of your presence and becomes smarter.
+
+
+*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
+
+
+ATTACHED 0:3,FalconGunship
+
+to
+
+ATTACHED 0:4,FalconGunship
+
+
+This breaks the saved scenario :(
+
+
+Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
+
+
+ATTACHED 0:3,FalconGunship
+
+to
+
+ATTACHED 0:4,FalconGunship
 END_DESC
 
 BEGIN_ENVIRONMENT

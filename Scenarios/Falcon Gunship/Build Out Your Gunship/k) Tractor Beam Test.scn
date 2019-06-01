@@ -10,6 +10,15 @@ https://www.orbithangar.com/searchid.php?ID=3165
 
 
 Use TetherMFD and AttitudeMFD together to bring SH-01 to 90m.
+
+
+Attitude MFD - press MOD to cycle to Target Relative, press TGT, enter SH-01.  Press TRA.
+
+
+Tether MFD - press JOI
+
+
+Voila!
 END_DESC
 
 BEGIN_ENVIRONMENT
@@ -36,13 +45,13 @@ END_HUD
 BEGIN_MFD Left
   TYPE User
   MODE Tether MFD
-  SetupTetherLength 1000.00
+  SetupTetherLength 93.46
   SetupTetherForce 10000.00
-  SetupTargetIndex 7
+  SetupTargetIndex 2
   CurrentTether 0
   attach_type_v1 0
   attach_no_v1 0
-  attach_type_v2 0
+  attach_type_v2 1
   attach_no_v2 0
   TetherData 0 CONNECT 0
   TetherData 1 CONNECT 0

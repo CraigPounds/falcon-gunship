@@ -6,6 +6,13 @@ https://www.orbithangar.com/searchid.php?ID=6492
 Gunship Script MFD
 https://www.orbithangar.com/searchid.php?ID=6673
 
+Makeshift Targets 1.6
+https://www.orbithangar.com/searchid.php?ID=6793
+
+Makeshift Defenders 1.1
+https://www.orbithangar.com/searchid.php?ID=6999
+
+
 For Orbiter 2010 you can find Bombsight Script MFD and Gunship Script MFD inside of Beep's Script Package for Orbiter 2010P1
 https://www.orbithangar.com/searchid.php?ID=7001
 

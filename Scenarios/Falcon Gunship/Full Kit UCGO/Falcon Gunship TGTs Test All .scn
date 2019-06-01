@@ -14,6 +14,33 @@ RMS:URMS
 
 
 All 41 targets  are present in this scenario. I have prepared several preset views (Press CTRL F1) so you can find some of them easily.
+
+
+*For Orbiter 2010 you will need to manually remove the last vessel in this scenario file for this scenario to work :(
+
+
+
+*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
+
+
+ATTACHED 0:3,FalconGunship
+
+to
+
+ATTACHED 0:4,FalconGunship
+
+
+This breaks the saved scenario :(
+
+
+Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
+
+
+ATTACHED 0:3,FalconGunship
+
+to
+
+ATTACHED 0:4,FalconGunship
 END_DESC
 
 BEGIN_ENVIRONMENT
