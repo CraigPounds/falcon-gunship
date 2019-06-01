@@ -2,37 +2,48 @@ BEGIN_DESC
 FaclonGunship at the Grand Canyon.
 
 
+Vinka's Spacecraft4 is required.
+
+http://francophone.dansteph.com/?page=addon&id=202
+
+
 Animation Controls:
 
 
 LShift + Numpad 1 = Radar Dish Deploy
 
-
 LShift + Numpad 3 = Radar Dish Rotate
-
 
 LShift + Numpad 5 = Fire Blasters
 
-
 LShift + Numpad 7 = Rotate Top Turret
-
 
 LShift + Numpad 9 = Rotate Bottom Turret
 
-
 g = Gear
 
-
 k = Gangway
-
 
 j = Jettison
 
 
-Vinka's Spacecraft4 is required.
+This scenario includes:
 
+FalconGunship:FalconGunship
 
-http://francophone.dansteph.com/?page=addon&id=202
+ISS:ProjectAlpha_ISS
+
+SH-01:ShuttleA
+
+STS-101:Atlantis
+
+Carina:Carina
+
+Mir:Mir
+
+HST:HST
+
+Luna-OB1:Wheel
 END_DESC
 
 BEGIN_ENVIRONMENT
@@ -64,8 +75,9 @@ END_MFD
 BEGIN_MFD Right
   TYPE Map
   REF Earth
-  ZOOM 16
-  DISP 45231
+  TARGET STS-101
+  ZOOM 8
+  DISP 46255
 END_MFD
 
 BEGIN_SHIPS
@@ -91,5 +103,92 @@ FalconGunship:FalconGunship
   SEQ 5 -2 0.000000
   SEQ 6 -2 0.002593
   SEQ 7 -2 0.006296
+END
+ISS:ProjectAlpha_ISS
+  STATUS Orbiting Earth
+  RPOS -1524464.27 -1194989.78 -6474963.55
+  RVEL 4713.023 5666.610 -2164.868
+  AROT 170.11 -5.97 -54.65
+  AFCMODE 7
+  PRPLEVEL 0:0.926000
+  DOCKINFO 2:0,ProgressM 3:0,SH-01
+  IDS 0:241 100 1:242 100 2:584 100 3:582 100 4:580 100
+  NAVFREQ 0 0
+  XPDR 466
+END
+SH-01:ShuttleA
+  STATUS Orbiting Earth
+  RPOS -1524442.06 -1194973.61 -6474968.89
+  RVEL 4713.023 5666.610 -2164.868
+  AROT -108.22 54.21 -10.24
+  AFCMODE 5
+  PRPLEVEL 0:1.000000 1:1.000000
+  DOCKINFO 0:3,ISS
+  NAVFREQ 0 0
+  XPDR 0
+  PODANGLE 0.0000 0.0000
+  DOCKSTATE 1 1.0000
+  AIRLOCK 0 0.0000
+  GEAR 1 1.0000
+  PAYLOAD MASS 0.0 0
+END
+STS-101:Atlantis
+  STATUS Orbiting Earth
+  RPOS 3222505.57 5486799.36 -2192481.94
+  RVEL 6601.692 -3958.028 -192.400
+  AROT 31.05 34.46 57.90
+  VROT 0.02 0.01 0.13
+  AFCMODE 7
+  PRPLEVEL 0:1.000000
+  NAVFREQ 0 0
+  CONFIGURATION 3
+  GEAR 0 0.0000
+  ARM_STATUS 0.5000 0.0000 0.0000 0.5000 0.5000 0.5000
+  SAT_OFS_X 0.000000
+  SAT_OFS_Y 0.000000
+  SAT_OFS_Z 0.000000
+  CARGO_STATIC_MESH Carina_cradle
+  CARGO_STATIC_OFS 0.000000 -1.650000 0.050000
+  CARGODOOR 1 1.0000
+END
+Carina:Carina
+  STATUS Orbiting Earth
+  ATTACHED 0:0,STS-101
+  AFCMODE 7
+  NAVFREQ 0 0
+END
+Mir:Mir
+  STATUS Orbiting Earth
+  RPOS -5089089.88 -270967.62 -4276974.69
+  RVEL 4994.105 -353.315 -5911.313
+  AROT 178.81 71.54 -97.15
+  VROT -0.13 0.00 0.00
+  AFCMODE 7
+  IDS 0:540 100 1:542 100 2:544 100
+  NAVFREQ 0 0
+  XPDR 482
+END
+HST:HST
+  STATUS Orbiting Earth
+  RPOS -6455992.11 -1675895.88 -435261.95
+  RVEL 504.910 -47.223 -7689.930
+  AROT 132.56 -61.70 119.13
+  VROT 0.12 -0.02 -0.00
+  AFCMODE 7
+  NAVFREQ 0 0
+  ANT 1 1.0000
+  HATCH 1 1.0000
+  FOLD 1 1.0000
+END
+Luna-OB1:Wheel
+  STATUS Orbiting Moon
+  RPOS -1767048.16 -484058.20 891308.65
+  RVEL 755.228 -343.132 1310.829
+  AROT 13.73 -14.95 -3.20
+  VROT 0.00 0.00 10.00
+  AFCMODE 7
+  IDS 0:560 100 1:564 100
+  NAVFREQ 0 0
+  XPDR 494
 END
 END_SHIPS
