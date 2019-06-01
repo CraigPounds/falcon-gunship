@@ -3,37 +3,20 @@ Script GunshipMFD/LoadFalconGunship
 
 SPOT:spotlight2
 
-FaclonGunship:FalconGunship
+FalconGunship:FalconGunship
 
 RMS:URMS
 
 
-*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
+*Adapted from Beep's  DG Against Defenders AGM_88 scenario.
 
 
-ATTACHED 0:3,FalconGunship
-
-to
-
-ATTACHED 0:4,FalconGunship
-
-
-This breaks the saved scenario :(
-
-
-Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
-
-
-ATTACHED 0:3,FalconGunship
-
-to
-
-ATTACHED 0:4,FalconGunship
+Defenders test and demonstration. There are two of them west, just ahead. It's better to use ECM MFD to locate RF threat sources and tune the missiles. Double click 'JAM' on the ECM MFD to turn off your transponder and stop giving clues of your position to the defenders. Check Bombsight MFD documentation for the use of ECM MFD and AGM 88 HARM missiles.Using ECM MFD Jamming improves the chance you are not tracked or hit but exposes you to the defenders' Radar Warning Receiver. Using the Ground Radar exposes you as well. The longer you are tracked the more the enemy gets aware of your presence and becomes smarter. 
 END_DESC
 
 BEGIN_ENVIRONMENT
   System Sol
-  Date MJD 56283.9143358893
+  Date MJD 51982.6800933964
   Script GunshipMFD/LoadFalconGunship
 END_ENVIRONMENT
 
@@ -43,10 +26,8 @@ END_FOCUS
 
 BEGIN_CAMERA
   TARGET FalconGunship
-  MODE Extern
-  POS 5.82 -72.71 -47.09
-  TRACKMODE GlobalFrame
-  FOV 40.00
+  MODE Cockpit
+  FOV 50.00
 END_CAMERA
 
 BEGIN_HUD
@@ -54,18 +35,31 @@ BEGIN_HUD
 END_HUD
 
 BEGIN_MFD Left
-  TYPE Surface
-  SPDMODE 1
+   TYPE User
+  MODE ECMMFD
 END_MFD
 
 BEGIN_MFD Right
-  TYPE Map
-  REF Earth
-  ZOOM 16
-  DISP 45231
+  TYPE User
+  MODE BombsightMFD
 END_MFD
 
 BEGIN_SHIPS
+DG-01:DeltaGlider
+  STATUS Orbiting Earth
+  RPOS 2591580.73 5151820.54 -2717213.18
+  RVEL 103.518 -23.354 54.014
+  AROT 156.54 60.29 124.54
+  VROT 0.28 0.05 -0.00
+  RCSMODE 0
+  AFCMODE 7
+  PRPLEVEL 0:0.917088 1:1.000000
+  THLEVEL 0:0.292118 1:0.292118
+  NAVFREQ 40 40 60 60
+  XPDR 0
+  TRIM 0.419612
+  AAP 0:0 0:0 0:0
+END
 37mm_1:37mm
   STATUS Orbiting Earth
   AFCMODE 7
@@ -222,10 +216,10 @@ AGM_881:AGM_88
 END
 SPOT:spotlight2
   STATUS Orbiting Earth
-  RPOS 3120757.54 5065190.01 -2382618.55
-  RVEL 911.319 -277.802 1514.727
-  AROT -7.65 -24.94 41.69
-  VROT -0.08 -0.00 0.00
+  RPOS 2591580.73 5151820.54 -2717213.18
+  RVEL 103.518 -23.354 54.014
+  AROT 156.54 60.29 124.54
+  VROT 0.28 0.05 -0.00
   ATTACHED 0:1,FalconGunship
   AFCMODE 7
   NAVFREQ 0 0
@@ -233,10 +227,10 @@ SPOT:spotlight2
 END
 FalconGunship:FalconGunship
   STATUS Orbiting Earth
-  RPOS 3120757.54 5065190.01 -2382618.55
-  RVEL 911.319 -277.802 1514.727
-  AROT -7.65 -24.94 41.69
-  VROT -0.08 -0.00 0.00
+  RPOS 2591580.73 5151820.54 -2717213.18
+  RVEL 103.518 -23.354 54.014
+  AROT 156.54 60.29 124.54
+  VROT 0.28 0.05 -0.00
   AFCMODE 2
   PRPLEVEL 0:0.991589
   THLEVEL 15:0.000015 18:0.000015
@@ -256,10 +250,10 @@ FalconGunship:FalconGunship
 END
 RMS:URMS
   STATUS Orbiting Earth
-  RPOS 3120757.54 5065190.01 -2382618.55
-  RVEL 911.319 -277.802 1514.727
-  AROT -7.65 -24.94 41.69
-  VROT -0.08 -0.00 0.00
+  RPOS 2591580.73 5151820.54 -2717213.18
+  RVEL 103.518 -23.354 54.014
+  AROT 156.54 60.29 124.54
+  VROT 0.28 0.05 -0.00
   ATTACHED 0:3,FalconGunship
   AFCMODE 7
   NAVFREQ 0 0
@@ -282,5 +276,23 @@ RMS:URMS
   CARGO_PARAMS -9.94 6.19 64.75
   FLASH_OFF 1
   IK_PARAMS 0 0.00000 0.00000 0.000
+END
+TGT1:DEF_AAA_1
+  STATUS Landed Earth
+  POS -117.8899980 34.8744690
+  HEADING 66.56
+  AFCMODE 7
+  PRPLEVEL 0:1.000000
+  NAVFREQ 0 0
+  XPDR 40
+END
+TGT2:DEF_SAM_1
+  STATUS Landed Earth
+  POS -117.8899980 34.8930390
+  HEADING 66.56
+  AFCMODE 7
+  PRPLEVEL 0:1.000000
+  NAVFREQ 0 0
+  XPDR 60
 END
 END_SHIPS

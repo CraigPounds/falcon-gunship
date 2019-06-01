@@ -1,4 +1,3 @@
-I am not the smartest person around, but i work hard at it ;)
 
 
 Falcon Gunship
@@ -7,6 +6,18 @@ Required:
 
 Vinka's wonderful Spacecraft4
 http://francophone.dansteph.com/?page=addon&id=202
+
+To gun your ship these two add-ons are also required
+
+Bombsight Script MFD
+https://www.orbithangar.com/searchid.php?ID=6492
+
+Gunship Script MFD
+https://www.orbithangar.com/searchid.php?ID=6673
+
+*Orbiter 2010 users, see Beep's Script Package for Orbiter 2010P1 for correct versions of Bombsight and Gunship Script MFDs
+
+https://www.orbithangar.com/searchid.php?ID=7001
 
 
 ...
@@ -60,6 +71,10 @@ The gangway and landing gear i added are crude but, hopefully, everything fits t
 There are only three landing struts but the landing points for them are correct.
 
 MFDs in Virtual Cockpit are subject to shadows.
+
+For Gunship Script MFD, the mesh for the top turret is upside down - the only way i was able to aim properly, while the turret had focus.
+
+If you don't care about being able to use that turret independently, there are alternative pos & dir figures (commented out) in the, provided, CreateGunAttchs.lua script.
 
 
 ...

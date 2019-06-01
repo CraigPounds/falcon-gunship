@@ -80,6 +80,7 @@ while odx < numvessels do
 	
 	--Pylon position for FalconGunship (parent)
 		atprm = {
+		
 			--pos= {x= 0.0,y= 1.9,z= -3.8},
 			--dir = {x = 0,y = 1,z = 0},
 			pos= {x= 0.0,y= 2.6,z= -3.8},
@@ -90,6 +91,7 @@ while odx < numvessels do
 		hAtt1 = vthisv:create_attachment(false,atprm.pos,atprm.dir,atprm.rot,atprm.id,false)
 
 		atprm = {
+
 			pos= {x= 0.0,y= -3.3,z= -3.8},
 			dir = {x = 0,y = -1,z = 0},
 			rot = {x = 0,y = 0,z = 1},
