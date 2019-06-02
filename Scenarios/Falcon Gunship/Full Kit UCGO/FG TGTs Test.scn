@@ -11,7 +11,7 @@ https://www.orbithangar.com/searchid.php?ID=6793
 *Adapted from Beep's TGTs Test All scenario...
 
 
-All 41 targets  are present in this scenario. I have prepared several preset views (Press CTRL F1) so you can find some of them easily.
+40 targets are present in this scenario. I couldn't get the last vessel to work in both Orbiter 2010 and Orbiter 2016, so i replaced it with a Deltaglider. Beep prepared several preset views (Press CTRL F1) so you can find some of them easily.
 
 
 This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
@@ -25,8 +25,7 @@ FalconGunship:FalconGunship
 
 RMS:URMS
 
-
-*For Orbiter 2010 you will need to manually remove the last vessel (tt41:TGT_FTR_F5_FLY) in this scenario file for this scenario to work :(
+DG-01:Deltaglider
 
 
 *For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
@@ -260,9 +259,9 @@ CARGO:XR5_UCGO_TEU1
   AFCMODE 7
   NAVFREQ 0 0
   DoorM 0 0.0000
-  UCGO @@0,1,0,0,@@1,1,0,0,@@2,1,0,0,@@3,1,0,0,@@4,1,0,0,@@5,1,0,0,@@6,1,0,0,@@7,1,0,0,
-  UCGO @@8,1,0,0,@@9,1,0,0,@@10,1,0,0,@@11,1,0,0,@@12,1,0,0,@@13,1,0,0,@@14,1,0,0,
-  UCGO @@15,1,0,0,
+  UCGO @@0,1,1,1048,CargoSpaceFuel,@@1,1,0,0,@@2,1,0,0,@@3,1,0,0,@@4,1,0,0,@@5,1,0,0,
+  UCGO @@6,1,1,38,CargoLandingBeacon,@@7,1,1,356,CargoProbeUMmu,@@8,1,1,157,CargoRescueBoatUMmu,
+  UCGO @@9,1,0,0,@@10,1,0,0,@@11,1,0,0,@@12,1,0,0,@@13,1,0,0,@@14,1,0,0,@@15,1,0,0,
 END
 SPOT:spotlight2
   STATUS Orbiting Earth
@@ -689,15 +688,18 @@ tt40:TGT_FTR_F5
   AFCMODE 7
   NAVFREQ 0 0
 END
-tt41:TGT_FTR_F5_FLY
+DG-01:Deltaglider
   STATUS Orbiting Earth
   RPOS 803630.262 588155.743 6300806.106
   RVEL -404.5696 -23.2400 53.6749
   AROT 68.021 67.979 151.973
   AFCMODE 7
-  PRPLEVEL 0:0.999996
-  THLEVEL 0:0.733333 1:0.733333
-  NAVFREQ 0 0
-  XPDR 440
+  PRPLEVEL 0:0.691474 1:0.998324
+  THLEVEL 0:0.768908 1:0.768908
+  NAVFREQ 0 0 0 0
+  XPDR 0
+  HOVERHOLD 0 1 0.0000e+000 0.0000e+000
+  TRIM 0.436020
+  AAP 0:0 0:0 0:0
 END
 END_SHIPS
