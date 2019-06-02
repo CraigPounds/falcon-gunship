@@ -72,6 +72,8 @@ There are only three landing struts but the landing points for them are correct.
 
 MFDs in Virtual Cockpit are subject to shadows.
 
+To spawn the FalconGunship with the Scenario Editor, the vessel name must be 'FalconGunship'.
+
 For Gunship Script MFD, the mesh for the top turret is upside down - the only way i was able to aim properly, while the turret had focus.
 
 If you don't care about being able to use that turret independently, there are alternative pos & dir figures (commented out) in the, provided, CreateGunAttchs.lua script.
