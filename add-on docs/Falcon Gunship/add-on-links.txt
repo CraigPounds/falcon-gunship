@@ -123,9 +123,9 @@ Use TetherMFD and AttitudeMFD together to bring SH-01 to 90m.
   
 Want to 'space-torpedo'?
 
-Once installed, 'space torpedoes' will be available in any Falcon Gunship scenario. Simply add the following payload to the end of
+Once installed, 'space torpedoes' will be available in any Falcon Gunship scenario.
 
-<Orbiter Path>\Config\Spacecraft\FalconGunship.ini
+Simply add the following payload to the end of <Orbiter Path>\Config\Spacecraft\FalconGunship.ini
 
 [PAYLOAD_0]
 MESHNAME=Bomb

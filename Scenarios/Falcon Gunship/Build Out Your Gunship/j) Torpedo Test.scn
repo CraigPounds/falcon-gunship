@@ -1,10 +1,8 @@
 BEGIN_DESC
-Once installed, 'space torpedoes' will be available in any Falcon Gunship scenario :)
+Once installed, 'space torpedoes' will be available in any Falcon Gunship scenario.
 
 
-Add the following payload to the end of
-
-<Orbiter Path>\Config\Spacecraft\FalconGunship.ini
+Add the following payload to the end of <Orbiter Path>\Config\Spacecraft\FalconGunship.ini
 
 
 (see <Orbiter Path>\add-on docs\Falcon Gunship\add-on-links.txt for alternative to copying these lines)
@@ -176,10 +174,12 @@ Press 'j' to jettison torpedo.
 
 Detonate remotely with BombMDF3 (required for this to work)
 
+
 https://www.orbithangar.com/searchid.php?ID=3059
 
 
 Target and synchronize detonation with SensorMFD V0.5.1b
+
 
 https://www.orbithangar.com/searchid.php?ID=1092
 
