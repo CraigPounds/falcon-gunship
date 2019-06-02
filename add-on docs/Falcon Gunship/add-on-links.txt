@@ -234,7 +234,7 @@ For Orbiter 2010 https://www.orbithangar.com/orbiter.php i also highly suggest
 UMMUFA v.2.0 
 https://www.orbithangar.com/searchid.php?ID=3509
 
-Orulex_Land_Gen-v1.2 
+Orulex_Land_Gen-v1.2
 https://www.orbithangar.com/searchid.php?ID=2686
 
 Orulex_Collisions_UCGO

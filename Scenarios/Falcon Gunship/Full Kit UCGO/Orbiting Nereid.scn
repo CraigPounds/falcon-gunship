@@ -8,7 +8,22 @@ https://www.orbithangar.com/searchid.php?ID=1101
 Orbiter playback scenario at T = 0
 
 
+Animations are not recorded so you will have to copilot.
+
+
 Press Ctrl + F5 to cancel playback.
+
+
+Orulex_Land_Gen-v1.2
+
+
+https://www.orbithangar.com/searchid.php?ID=2686
+
+
+Orulex_Collisions_UCGO
+
+
+https://www.orbithangar.com/searchid.php?ID=4433
 
 
 This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
@@ -76,20 +91,30 @@ BEGIN_CAMERA
   POS 13.91 -107.40 79.61
   TRACKMODE GlobalFrame
   FOV 40.00
+  BEGIN_PRESET
+    Ground:FalconGunship:40.00:Nereid 81.94390 40.82436 2339.38
+    Ground:FalconGunship:40.00:Nereid 81.96220 40.82315 45.87
+  END_PRESET
 END_CAMERA
 
 BEGIN_HUD
   TYPE Docking
-  NAV 0
+  REF Avenger
 END_HUD
 
-BEGIN_HUD
-  TYPE Surface
-END_HUD
+BEGIN_MFD Left
+  TYPE Map
+  REF Nereid
+  POS 0.00 0.00
+  DISP 1071
+END_MFD
 
 BEGIN_MFD Right
-  TYPE User
-  MODE GunshipMFD
+  TYPE Orbit
+  PROJ Frame
+  FRAME Ecliptic
+  ALT
+  REF Nereid
 END_MFD
 
 BEGIN_VC
@@ -402,8 +427,10 @@ Executor:stardestroyer
   RVEL 205.979 619.928 -474.359
   AROT 126.53 -16.14 -105.58
   RCSMODE 2
-  PRPLEVEL 0:1.000
-  IDS 0:51 100 1:52 100 2:53 100 3:54 100 4:55 100
+  AFCMODE 7
+  PRPLEVEL 0:1.000000
+  THLEVEL 2:0.012908
+  IDS 0:51 100 1:52 100
   NAVFREQ 0 0
   XPDR 50
 END

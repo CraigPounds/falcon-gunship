@@ -1,0 +1,11 @@
+//Base name,height,type,radius
+//height=0 means default height
+//height=-1 means flat place
+//type=0 means no crater
+//type=1 means smoothed hole crater
+//type=2 means flat crater
+//type=3 means default
+//type +8 means no tear
+//radius=0 means base default
+//
+Cavenot,0,11,99
