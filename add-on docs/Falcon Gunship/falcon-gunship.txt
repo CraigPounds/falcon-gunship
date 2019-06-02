@@ -45,7 +45,7 @@ Basic Virtual Cockpit - MFD's but no HUD.
 ...
 
 
-Animation Control
+Animation Controls (Num Lock must be off)
 
 LShift + Numpad 1 = Radar Dish Deploy
 LShift + Numpad 3 = Radar Dish Rotate

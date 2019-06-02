@@ -1,0 +1,81 @@
+BEGIN_DESC
+FaclonGunship landed on Mars in Vallis Dao.
+
+
+Vinka's Spacecraft4 is required.
+
+http://francophone.dansteph.com/?page=addon&id=202
+
+
+Animation Controls (Num Lock must be off)
+
+
+LShift + Numpad 1 = Radar Dish Deploy
+
+LShift + Numpad 3 = Radar Dish Rotate
+
+LShift + Numpad 5 = Fire Blasters
+
+LShift + Numpad 7 = Rotate Top Turret
+
+LShift + Numpad 9 = Rotate Bottom Turret
+
+g = Gear
+
+k = Gangway
+
+j = Jettison
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System Sol
+  Date MJD 56283.8877752187
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship FalconGunship
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET FalconGunship
+  MODE Extern
+  POS 10.213762 44.173270 -105.525094
+  TRACKMODE GlobalFrame
+  FOV 30.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+BEGIN_SHIPS
+FalconGunship:FalconGunship
+  STATUS Landed Mars
+  POS 93.5666440 -33.2582620
+  HEADING 27.31
+  ALT 4.884
+  AROT 58.800 29.201 -176.36
+  AFCMODE 1
+  PRPLEVEL 0:0.986971
+  IDS 0:588 100 1:586 100
+  NAVFREQ 108 0
+  XPDR 513
+  RCS 1
+  CTRL_SURFACE 1
+  CONFIGURATION 1
+  CURRENT_PAYLOAD 0
+  SEQ 0 2 0.997106
+  SEQ 1 -2 0.001591
+  SEQ 2 -2 0.011507
+  SEQ 3 -2 0.000601
+  SEQ 4 -2 0.001082
+  SEQ 5 -2 0.000000
+  SEQ 6 -2 0.005556
+  SEQ 7 -2 0.000000
+END
+END_SHIPS

@@ -6,13 +6,6 @@ https://www.orbithangar.com/searchid.php?ID=6492
 Gunship Script MFD
 https://www.orbithangar.com/searchid.php?ID=6673
 
-Makeshift Targets 1.6
-https://www.orbithangar.com/searchid.php?ID=6793
-
-Makeshift Defenders 1.1
-https://www.orbithangar.com/searchid.php?ID=6999
-
-
 For Orbiter 2010 you can find Bombsight Script MFD and Gunship Script MFD inside of Beep's Script Package for Orbiter 2010P1
 https://www.orbithangar.com/searchid.php?ID=7001
 
@@ -38,6 +31,19 @@ You will need to move these to <Orbiter Path>\Script\BombsightMFD\ & <Orbiter Pa
 WARNING! If you have already customized <Orbiter Path>\Script\BombsightMFD\CreatePylonAttchs.lua or <Orbiter Path>\Script\GunShipMFD\CreateGunAttchs.lua be sure to back them up first!
 
 Otherwise edit these files yourself using the examples from <Orbiter Path>\add-on docs\Falcon Gunship\.
+
+
+...
+
+
+Makeshift Targets 1.6
+https://www.orbithangar.com/searchid.php?ID=6793
+
+*For Orbiter 2010 you will need to manually remove the last vessel (tt41:TGT_FTR_F5_FLY) in this scenario file for this scenario to work :(
+
+
+Makeshift Defenders 1.1
+https://www.orbithangar.com/searchid.php?ID=6999
 
 
 ...
@@ -233,4 +239,22 @@ Orulex_Collisions_UCGO
 https://www.orbithangar.com/searchid.php?ID=4433
 
 
+Use Tether MFD to learn to ski?
+
+Press F3 to switch to the UtilCar and EVA a UMMU (press e).
+Press Ctrl + F4 to open External MFD.
+Open Teather MFD and press V+ to cycle to vessel UMMU.
+Press L- to reduce tether link to ~ 23m.
+Press JOI to join UMMU to UtilCar with tether.
+Start engine (press s).
+Press Up Arrow to, slowly increase speed.
+Switch to UMMU and ski!
+(toggle between vessels using Ctrl + F3)
+
+Amundsen-Scott South Pole Station
+https://www.orbithangar.com/searchid.php?ID=3659
+
+
 ...
+
+

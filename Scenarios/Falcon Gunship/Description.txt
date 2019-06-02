@@ -2,9 +2,9 @@ BEGIN_HYPERDESC
 <!--Orbiter 2016 description-->
 <h1>Falcon Gunship</h1>
 <p><a href="http://francophone.dansteph.com/?page=addon&id=202">Vinka's Spacecraft4</a> is required.</p>
-<p>To gun your ship, these two add-ons are also required:</p>
-<p><a href="https://www.orbithangar.com/searchid.php?ID=6492">Bombsight Script MFD</a></p>
-<p><a href="https://www.orbithangar.com/searchid.php?ID=6673">Gunship Script MFD</a></p>
+<p>To gun your ship, <a href="https://www.orbithangar.com/searchid.php?ID=6492">Bombsight Script MFD</a> and <a href="https://www.orbithangar.com/searchid.php?ID=6673">Gunship Script MFD</a> are also required.</p>
+<p></p>
+<p></p>
 END_HYPERDESC
 
 BEGIN_DESC
@@ -16,7 +16,7 @@ Vinka's Spacecraft4 is required.
 http://francophone.dansteph.com/?page=addon&id=202
 
 
-To gun your ship, Bombsight Script MFD & Gunship Script MFD are also required:
+To gun your ship, Bombsight Script MFD and Gunship Script MFD are also required.
 
 https://www.orbithangar.com/searchid.php?ID=7001
 END_DESC
