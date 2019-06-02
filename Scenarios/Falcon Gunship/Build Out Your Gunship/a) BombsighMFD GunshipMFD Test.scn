@@ -39,7 +39,7 @@ Either delete or comment out placing  a ' ; ' at the beginning of the line, any 
 Enter Orbiter Launchpad. Press the 'Modules' button and in the section 'Script Tools and Drivers' activate the 'ScriptMFD' checkbox. If you intend to use the Formation Autopilot Script activate the 'LuaConsole' checkbox also.
 
 
-The .lua scripts needed for the FalconGunship can be found in <Orbiter Path>\add-on docs\Falcon Gunship.
+The .lua scripts needed for the FalconGunship can be found in <Orbiter Path>\add-on docs\Falcon Gunship\Script\.
 
 
 You will need to move these to <Orbiter Path>\Script\BombsightMFD\ & <Orbiter Path>\Script\GunShipMFD\, respectively.
@@ -48,7 +48,19 @@ You will need to move these to <Orbiter Path>\Script\BombsightMFD\ & <Orbiter Pa
 WARNING! If you have already customized <Orbiter Path>\Script\BombsightMFD\CreatePylonAttchs.lua or <Orbiter Path>\Script\GunShipMFD\CreateGunAttchs.lua be sure to back them up first!
 
 
-Otherwise edit these files yourself using the examples from <Orbiter Path>\add-on docs\Falcon Gunship.
+Otherwise edit these files yourself using the examples from <Orbiter Path>\add-on docs\Falcon Gunship\Script\BombsightMFD\CreatePylonAttchs.lua and <Orbiter Path>\add-on docs\Falcon Gunship\Script\GunShipMFD\CreateGunAttchs.lua.
+
+
+This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+
+
+FalconGunship:FalconGunship
+
+DGS-01:DG-S
+
+SH-01:ShuttleA
+
+PB-01:ShuttlePB
 END_DESC
 
 BEGIN_ENVIRONMENT

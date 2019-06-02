@@ -1,5 +1,20 @@
 BEGIN_DESC
-Script GunshipMFD/LoadFalconGunship
+*This scenario requires 
+
+
+Makeshift Targets 1.6
+
+https://www.orbithangar.com/searchid.php?ID=6793
+
+
+*Adapted from Beep's TGTs Test All scenario...
+
+
+All 41 targets  are present in this scenario. I have prepared several preset views (Press CTRL F1) so you can find some of them easily.
+
+
+This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+
 
 CARGO:XR5_UCGO_TEU1
 
@@ -10,14 +25,7 @@ FalconGunship:FalconGunship
 RMS:URMS
 
 
-*Adapted from Beep's TGTs Test All scenario.
-
-
-All 41 targets  are present in this scenario. I have prepared several preset views (Press CTRL F1) so you can find some of them easily.
-
-
-*For Orbiter 2010 you will need to manually remove the last vessel in this scenario file for this scenario to work :(
-
+*For Orbiter 2010 you will need to manually remove the last vessel (tt41:TGT_FTR_F5_FLY) in this scenario file for this scenario to work :(
 
 
 *For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
@@ -33,7 +41,7 @@ ATTACHED 0:4,FalconGunship
 This breaks the saved scenario :(
 
 
-Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
+Coincidentally, to make this scenario compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
 
 
 ATTACHED 0:3,FalconGunship

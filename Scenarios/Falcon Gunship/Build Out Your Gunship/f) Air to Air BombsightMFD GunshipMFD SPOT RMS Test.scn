@@ -5,7 +5,8 @@ BEGIN_DESC
 Select and enable your guns and approach the aircraft in front of you. Fire a barrage shot in its path to bring it down.
 
 
-Script GunshipMFD/LoadFalconGunship
+This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+
 
 DG-01:Deltaglider
 
@@ -31,7 +32,7 @@ ATTACHED 0:4,FalconGunship
 This breaks the saved scenario :(
 
 
-Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
+Coincidentally, to make this scenario compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
 
 
 ATTACHED 0:3,FalconGunship

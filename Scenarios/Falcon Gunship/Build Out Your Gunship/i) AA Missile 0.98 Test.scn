@@ -7,7 +7,7 @@ AA-Missile 0.98
 https://www.orbithangar.com/searchid.php?ID=3324
 
 
-Add these lines to the end of Config\MissileAttachment\MissileAttachment.cfg
+Add these lines to the end of <Orbiter Path>\Config\MissileAttachment\MissileAttachment.cfg
 
 
 BEGIN_FalconGunship
@@ -18,6 +18,16 @@ END_FalconGunship
 
 
 *Missile MFD is not open at start - there seems to be a bug if it is loaded at the beginning of the simulation.
+
+
+This scenario includes the vessels
+
+
+DG-01:Deltaglider
+
+DG-02:Deltaglider
+
+FalconGunship:FalconGunship
 END_DESC
 
 BEGIN_ENVIRONMENT

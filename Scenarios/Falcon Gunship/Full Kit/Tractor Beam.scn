@@ -14,7 +14,8 @@ Attitude MFD - press MOD to cycle to Target Relative, press TGT and enter SH-01.
 Tether MFD - press JOI
 
 
-Script GunshipMFD/LoadFalconGunship
+This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+
 
 SPOT:spotlight2
 
@@ -30,7 +31,7 @@ STS-101:Atlantis
 
 Carina:Carina
 
-Luna:Wheel
+Luna-OB1:Wheel
 
 Mir:Mir
 
@@ -48,7 +49,7 @@ ATTACHED 0:4,FalconGunship
 This breaks the saved scenario :(
 
 
-Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
+Coincidentally, to make this scenario compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
 
 
 ATTACHED 0:3,FalconGunship
@@ -452,7 +453,7 @@ Carina:Carina
   AFCMODE 7
   NAVFREQ 0 0
 END
-Luna:Wheel
+Luna-OB1:Wheel
   STATUS Orbiting Moon
   RPOS -1300570.44 -612372.92 1443718.31
   RVEL 1183.207 -190.175 985.096

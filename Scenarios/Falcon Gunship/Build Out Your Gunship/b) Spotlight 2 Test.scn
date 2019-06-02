@@ -7,6 +7,20 @@ https://www.orbithangar.com/searchid.php?ID=5182
 Spotlight 2(Orbiter2010)
 
 https://www.orbithangar.com/searchid.php?ID=7044
+
+
+This scenario includes the vessels
+
+
+SPOT:spotlight2
+
+FalconGunship:FalconGunship
+
+DGS-01:DG-S
+
+SH-01:ShuttleA
+
+PB-01:ShuttlePB
 END_DESC
 
 BEGIN_ENVIRONMENT

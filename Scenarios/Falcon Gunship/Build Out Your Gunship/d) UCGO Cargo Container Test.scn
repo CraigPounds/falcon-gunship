@@ -22,6 +22,20 @@ c / Shift + c = grapple / release cargo
 9 / Shift + 9 = select / add cargo from disk
 
 8 = information on cargo
+
+
+This scenario includes the vessels
+
+
+CARGO:XR5_UCGO_TEU1
+
+FalconGunship:FalconGunship
+
+DGS-01:DG-S
+
+SH-01:ShuttleA
+
+PB-01:ShuttlePB
 END_DESC
 
 BEGIN_ENVIRONMENT

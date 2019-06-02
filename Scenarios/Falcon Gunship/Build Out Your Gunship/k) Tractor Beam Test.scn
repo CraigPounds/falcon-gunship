@@ -19,6 +19,24 @@ Tether MFD - press JOI
 
 
 Voila!
+
+
+This scenario includes the vessels
+
+
+FalconGunship:FalconGunship
+
+ISS:ProjectAlpha_ISS
+
+SH-01:ShuttleA
+
+STS-101:Atlantis
+
+Carina:Carina
+
+Luna-OB1:Wheel
+
+Mir:Mir
 END_DESC
 
 BEGIN_ENVIRONMENT
@@ -145,7 +163,7 @@ Carina:Carina
   AFCMODE 7
   NAVFREQ 0 0
 END
-Luna:Wheel
+Luna-OB1:Wheel
   STATUS Orbiting Moon
   RPOS -1300570.44 -612372.92 1443718.31
   RVEL 1183.207 -190.175 985.096

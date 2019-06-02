@@ -4,6 +4,20 @@ Universal Remote Manipulator System
 http://www.orbithangar.com/searchid.php?ID=3373
 
 
+This scenario includes the vessels
+
+
+FalconGunship:FalconGunship
+
+RMS:URMS
+
+DGS-01:DG-S
+
+SH-01:ShuttleA
+
+PB-01:ShuttlePB
+
+
 *For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
 
 
@@ -17,7 +31,7 @@ ATTACHED 0:4,FalconGunship
 This breaks the saved scenario :(
 
 
-Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
+Coincidentally, to make this scenario compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
 
 
 ATTACHED 0:3,FalconGunship

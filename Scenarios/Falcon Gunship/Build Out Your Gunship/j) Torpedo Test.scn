@@ -1,10 +1,13 @@
 BEGIN_DESC
-Once installed, 'space torpedoes' will be available in any Falcon Gunship scenario...
+Once installed, 'space torpedoes' will be available in any Falcon Gunship scenario :)
 
 
 Add the following payload to the end of
 
 <Orbiter Path>\Config\Spacecraft\FalconGunship.ini
+
+
+(see <Orbiter Path>\add-on docs\Falcon Gunship\add-on-links.txt for alternative to copying these lines)
 
 
 [PAYLOAD_0]
@@ -179,6 +182,24 @@ https://www.orbithangar.com/searchid.php?ID=3059
 Target and synchronize detonation with SensorMFD V0.5.1b
 
 https://www.orbithangar.com/searchid.php?ID=1092
+
+
+This senario includes the vessels
+
+
+FalconGunship:FalconGunship
+
+ISS:ProjectAlpha_ISS
+
+SH-01:ShuttleA
+
+STS-101:Atlantis
+
+Carina:Carina
+
+Luna-OB1:Wheel
+
+Mir:Mir
 END_DESC
 
 BEGIN_ENVIRONMENT
@@ -291,7 +312,7 @@ Carina:Carina
   AFCMODE 7
   NAVFREQ 0 0
 END
-Luna:Wheel
+Luna-OB1:Wheel
   STATUS Orbiting Moon
   RPOS -1300570.44 -612372.92 1443718.31
   RVEL 1183.207 -190.175 985.096

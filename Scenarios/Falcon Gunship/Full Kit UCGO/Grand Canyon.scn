@@ -1,5 +1,6 @@
 BEGIN_DESC
-Script GunshipMFD/LoadFalconGunship
+This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+
 
 CARGO:XR5_UCGO_TEU1
 
@@ -37,7 +38,7 @@ ATTACHED 0:4,FalconGunship
 This breaks the saved scenario :(
 
 
-Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
+Coincidentally, to make this scenario compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
 
 
 ATTACHED 0:3,FalconGunship

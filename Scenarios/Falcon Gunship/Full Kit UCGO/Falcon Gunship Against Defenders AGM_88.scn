@@ -1,5 +1,28 @@
 BEGIN_DESC
-Script GunshipMFD/LoadFalconGunship
+*This scenario requires 
+
+
+Makeshift Targets 1.6
+
+https://www.orbithangar.com/searchid.php?ID=6793
+
+
+and
+
+
+Makeshift Defenders 1.1
+
+https://www.orbithangar.com/searchid.php?ID=6999
+
+
+*Adapted from Beep's  DG Against Defenders AGM_88 scenario...
+
+
+Defenders test and demonstration. There are two of them west, just ahead. It's better to use ECM MFD to locate RF threat sources and tune the missiles. Double click 'JAM' on the ECM MFD to turn off your transponder and stop giving clues of your position to the defenders. Check Bombsight MFD documentation for the use of ECM MFD and AGM 88 HARM missiles.Using ECM MFD Jamming improves the chance you are not tracked or hit but exposes you to the defenders' Radar Warning Receiver. Using the Ground Radar exposes you as well. The longer you are tracked the more the enemy gets aware of your presence and becomes smarter.
+
+
+This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+
 
 CARGO:XR5_UCGO_TEU1
 
@@ -9,11 +32,11 @@ FalconGunship:FalconGunship
 
 RMS:URMS
 
+DG-01:DeltaGlider
 
-*Adapted from Beep's  DG Against Defenders AGM_88 scenario.
+TGT1:DEF_AAA_1
 
-
-Defenders test and demonstration. There are two of them west, just ahead. It's better to use ECM MFD to locate RF threat sources and tune the missiles. Double click 'JAM' on the ECM MFD to turn off your transponder and stop giving clues of your position to the defenders. Check Bombsight MFD documentation for the use of ECM MFD and AGM 88 HARM missiles.Using ECM MFD Jamming improves the chance you are not tracked or hit but exposes you to the defenders' Radar Warning Receiver. Using the Ground Radar exposes you as well. The longer you are tracked the more the enemy gets aware of your presence and becomes smarter.
+TGT2:DEF_SAM_1
 
 
 *For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
@@ -29,7 +52,7 @@ ATTACHED 0:4,FalconGunship
 This breaks the saved scenario :(
 
 
-Coincidentally, to make these scenarios compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
+Coincidentally, to make this scenario compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
 
 
 ATTACHED 0:3,FalconGunship
@@ -70,21 +93,6 @@ BEGIN_MFD Right
 END_MFD
 
 BEGIN_SHIPS
-DG-01:DeltaGlider
-  STATUS Orbiting Earth
-  RPOS 2591580.73 5151820.54 -2717213.18
-  RVEL 103.518 -23.354 54.014
-  AROT 156.54 60.29 124.54
-  VROT 0.28 0.05 -0.00
-  RCSMODE 0
-  AFCMODE 7
-  PRPLEVEL 0:0.917088 1:1.000000
-  THLEVEL 0:0.292118 1:0.292118
-  NAVFREQ 40 40 60 60
-  XPDR 0
-  TRIM 0.419612
-  AAP 0:0 0:0 0:0
-END
 37mm_1:37mm
   STATUS Orbiting Earth
   AFCMODE 7
@@ -315,6 +323,21 @@ RMS:URMS
   CARGO_PARAMS -9.94 6.19 64.75
   FLASH_OFF 1
   IK_PARAMS 0 0.00000 0.00000 0.000
+END
+DG-01:DeltaGlider
+  STATUS Orbiting Earth
+  RPOS 2591580.73 5151820.54 -2717213.18
+  RVEL 103.518 -23.354 54.014
+  AROT 156.54 60.29 124.54
+  VROT 0.28 0.05 -0.00
+  RCSMODE 0
+  AFCMODE 7
+  PRPLEVEL 0:0.917088 1:1.000000
+  THLEVEL 0:0.292118 1:0.292118
+  NAVFREQ 40 40 60 60
+  XPDR 0
+  TRIM 0.419612
+  AAP 0:0 0:0 0:0
 END
 TGT1:DEF_AAA_1
   STATUS Landed Earth

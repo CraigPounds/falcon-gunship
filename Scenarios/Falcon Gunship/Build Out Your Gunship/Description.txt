@@ -1,23 +1,23 @@
 BEGIN_HYPERDESC
 <!--Orbiter 2016 description-->
 <h1>Build Out Your Gunship</h1>
-<p>Use these scenarios to test each system as you install add-ons.</p>
+<p>Scenarios to test the Falcon Gunship as you install add-ons.</p>
 <p><a href="https://www.orbithangar.com/searchid.php?ID=6492">Bombsight Script MFD</a></p>
 <p><a href="https://www.orbithangar.com/searchid.php?ID=6673">Gunship Script MFD</a></p>
 <p><a href="https://www.orbithangar.com/searchid.php?ID=3324">AA-Missile 0.98</a></p>
-<p><a href="https://www.orbithangar.com/searchid.php?ID=3059">BombMDF3</a> to jettison bombs as space torpedoes, synchronizing detonations using <a href="https://www.orbithangar.com/searchid.php?ID=1092">SensorMFD</a></p>
-<p><a href="https://www.orbithangar.com/searchid.php?ID=6697">TetherMFD</a> in conjunction with <a href="https://www.orbithangar.com/searchid.php?ID=3165">Attitude MFD</a> to implement a practical 'tractor beam'</p>
 <p><a href="https://www.orbithangar.com/searchid.php?ID=5182">Spotlight2</a></p>
 <p><a href="http://www.orbithangar.com/searchid.php?ID=3373">Universal Remote Manipulator System</a></p>
+<p><a href="https://www.orbithangar.com/searchid.php?ID=3059">BombMDF3</a> to jettison bombs as space torpedoes, synchronizing detonations using <a href="https://www.orbithangar.com/searchid.php?ID=1092">SensorMFD</a></p>
+<p><a href="https://www.orbithangar.com/searchid.php?ID=6697">TetherMFD</a> in conjunction with <a href="https://www.orbithangar.com/searchid.php?ID=3165">Attitude MFD</a> to implement a practical 'tractor beam'</p>
 <p><a href="https://www.orbithangar.com/searchid.php?ID=4657">UCGO Cargo Container</a> - requires <a href="http://orbiter.dansteph.com/forum/index.php?page=download">UCGO & UMMU</a></p>
-<p>Links, as well as any additional instructions, are also provided within the scenario descriptions. Alternatively, see &#60;Orbiter Path&#62;\add-on docs\FalconGunship\linksReadme.txt</p>
+<p>Links, as well as any additional instructions, are also provided within the scenario descriptions. Alternatively, see &#60;Orbiter Path&#62;\add-on docs\FalconGunship\add-on-links.txt</p>
 END_HYPERDESC
 
 BEGIN_DESC
 Build Out Your Gunship
 
 
-Use these scenarios to test each system as you install add-ons.
+Scenarios to test the Falcon Gunship as you install add-ons.
 
 
 Bombsight Script MFD
@@ -29,20 +29,20 @@ Gunship Script MFD
 AA-Missile 0.98
 
 
-BombMDF3 to jettison bombs as space torpedoes, synchronizing detonations using SensorMFD
-
-
-TetherMFD in conjunction with Attitude MFD to implement a practical 'tractor beam'
-
-
 Spotlight2
 
 
 Universal Remote Manipulator System
 
 
+BombMDF3 to jettison bombs as space torpedoes, synchronizing detonations using SensorMFD
+
+
+TetherMFD in conjunction with Attitude MFD to implement a practical 'tractor beam'
+
+
 UCGO Cargo Container - requires UCGO & UMMU
 
 
-Links, as well as any additional instructions, are provided within the scenario descriptions and, also, <Orbiter Path>\add-on docs\FalconGunship\linksReadme.txt
+Links, as well as any additional instructions, are provided within the scenario descriptions and, also, <Orbiter Path>\add-on docs\FalconGunship\add-on-links.txt
 END_DESC
