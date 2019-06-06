@@ -5,8 +5,6 @@ Race begins in 30 seconds...
 This scenario uses Script GunshipMFD/PodRaceStp and includes the vessels
 
 
-CARGO:XR5_UCGO_TEU1
-
 SPOT:spotlight2
 
 FalconGunship:FalconGunship
@@ -376,20 +374,6 @@ AGM_881:AGM_88
   AFCMODE 7
   PRPLEVEL 0:1.000000 2:1.000000
   NAVFREQ 0
-END
-CARGO:XR5_UCGO_TEU1
-  STATUS Landed Mars
-  POS 93.5666440 -33.2582620
-  HEADING 210.00
-  ALT 4.884
-  AROT 58.800 29.201 -176.36
-  ATTACHED 0:0,FalconGunship
-  AFCMODE 7
-  NAVFREQ 0 0
-  DoorM 0 0.0000
-  UCGO @@0,1,0,0,@@1,1,0,0,@@2,1,0,0,@@3,1,0,0,@@4,1,0,0,@@5,1,0,0,@@6,1,0,0,@@7,1,0,0,
-  UCGO @@8,1,0,0,@@9,1,0,0,@@10,1,0,0,@@11,1,0,0,@@12,1,0,0,@@13,1,0,0,@@14,1,0,0,
-  UCGO @@15,1,0,0,
 END
 SPOT:spotlight2
   STATUS Landed Mars
