@@ -1,6 +1,6 @@
 
 
-Falcon Gunship
+FALCON GUNSHIP
 
 Required:
 
@@ -62,7 +62,7 @@ j = Jettison
 ...
 
 
-Known Issues:
+KNOWN ISSUES:
 
 If radar is rotated while it is deploying, or turret animation is 'fired' while rotating, mesh will get out of place and look funny.
 
@@ -82,7 +82,9 @@ If you don't care about being able to use that turret independently, there are a
 ...
 
 
-Thank you to Mr. Kyle Wiegers for giving permission to lean against his beautiful work. I found his Star Destroyer and Millenium Falcon-3
+Thank you to Mr. Kyle Wiegers
+
+For giving permission to lean against this work. I found the Star Destroyer and Millenium Falcon-3
 http://www.orbithangar.com/searchid.php?ID=1101 add on when I first discovered Orbiter 50216 and was running Windows 2K at something like 450MHz with 512MB of memory and a 64MB NVIDIA video card. The MilleniumF3.msh was so easy on my frame-rates that I became enamored with it.
 
 Over the while I very liberally tweaked the numbers for this vessel and then discovered I could add landing gear and an animated gangway using Anim8or http://www.anim8or.com/ , Mesh Wizard 1.9d    
@@ -94,7 +96,7 @@ The atmospheric flight model is based largely on the Cactus Kitten https://www.o
 ...
 
 
-Also thank you
+Thank you also to
 
 ar81
 
@@ -134,7 +136,7 @@ http://www.anim8or.com/
 ...
 
 
-Flying 'starwars style' in Orbiter on terrible old video ;)
+Flying 'starwars style' in Orbiter 2006, on terrible old video ;)
 
 Tooling Around Some Stardestroyers . . .
 https://www.youtube.com/watch?v=yXQz-VU5iVc

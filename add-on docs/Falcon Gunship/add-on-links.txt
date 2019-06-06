@@ -218,7 +218,13 @@ Use SensorMFD V0.5.1b https://www.orbithangar.com/searchid.php?ID=1092 to target
 ...
 
 
-Other highly recommended add-ons
+Highly recommended add-ons
+
+Fly-By-Wire 0.9.1 beta
+https://www.orbithangar.com/searchid.php?ID=3223
+
+HoverMFD 1.1.3 for Orbiter 2016
+https://www.orbithangar.com/searchid.php?ID=6993
 
 Universal Parachute
 https://www.orbithangar.com/searchid.php?ID=3842
@@ -229,7 +235,14 @@ https://www.orbithangar.com/searchid.php?ID=3508
 Star Destroyer and Millenium Falcon-3
 https://www.orbithangar.com/searchid.php?ID=1101
 
-For Orbiter 2010 https://www.orbithangar.com/orbiter.php i also highly suggest
+WarpDrive MFD Mk2
+https://www.orbithangar.com/searchid.php?ID=2297
+
+
+For Orbiter 2010 https://www.orbithangar.com/orbiter.php I humbly suggest
+
+HoverMFD 1.1.1 for Orbiter 2010
+https://www.orbithangar.com/searchid.php?ID=5712
 
 UMMUFA v.2.0 
 https://www.orbithangar.com/searchid.php?ID=3509
@@ -240,8 +253,17 @@ https://www.orbithangar.com/searchid.php?ID=2686
 Orulex_Collisions_UCGO
 https://www.orbithangar.com/searchid.php?ID=4433
 
+Additional Orulex heightmaps can be found at the Orulex-OrbiterWiki page Additional links section
+https://www.orbiterwiki.org/wiki/Orulex#Additional_links
 
-Use Tether MFD to learn to ski?
+
+Venus Heightmap
+https://www.orbithangar.com/searchid.php?ID=5903
+
+...
+
+
+Use Tether MFD to ski?
 
 Press F3 to switch to the UtilCar and EVA a UMMU (press e).
 Press Ctrl + F4 to open External MFD.
