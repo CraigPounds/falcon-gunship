@@ -54,7 +54,7 @@ WARNING! If you have already customized <Orbiter Path>\Script\BombsightMFD\Creat
 Otherwise edit these files yourself using the examples from <Orbiter Path>\add-on docs\Falcon Gunship\Script\BombsightMFD\CreatePylonAttchs.lua and <Orbiter Path>\add-on docs\Falcon Gunship\Script\GunShipMFD\CreateGunAttchs.lua.
 
 
-This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
 
 FalconGunship:FalconGunship
@@ -69,7 +69,7 @@ END_DESC
 BEGIN_ENVIRONMENT
   System Sol
   Date MJD 56284.7499937854
-  Script GunshipMFD/LoadFalconGunship
+  Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
 BEGIN_FOCUS

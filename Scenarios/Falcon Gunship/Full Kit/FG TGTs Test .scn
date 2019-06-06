@@ -14,7 +14,7 @@ https://www.orbithangar.com/searchid.php?ID=6793
 40 targets are present in this scenario. I couldn't get the last vessel to work in both Orbiter 2010 and Orbiter 2016, so i replaced it with a Deltaglider. Beep prepared several preset views (Press CTRL F1) so you can find some of them easily.
 
 
-This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
 
 SPOT:spotlight2
@@ -52,7 +52,7 @@ END_DESC
 BEGIN_ENVIRONMENT
   System Sol
   Date MJD 51982.9725816255
-  Script GunshipMFD/LoadFalconGunship
+  Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
 BEGIN_FOCUS

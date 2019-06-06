@@ -33,7 +33,7 @@ Amundsen-Scott South Pole Station
 https://www.orbithangar.com/searchid.php?ID=3659
 
 
-This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
 
 CARGO:XR5_UCGO_TEU1
@@ -62,7 +62,7 @@ END_DESC
 BEGIN_ENVIRONMENT
   System Sol
   Date MJD 52645.8151452796
-  Script GunshipMFD/LoadFalconGunship
+  Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
 BEGIN_FOCUS

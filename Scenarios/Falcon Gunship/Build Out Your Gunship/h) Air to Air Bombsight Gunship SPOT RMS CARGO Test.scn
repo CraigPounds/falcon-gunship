@@ -5,7 +5,7 @@ BEGIN_DESC
 Select and enable your guns and approach the aircraft in front of you. Fire a barrage shot in its path to bring it down.
 
 
-This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
 
 DG-01:Deltaglider
@@ -47,7 +47,7 @@ END_DESC
 BEGIN_ENVIRONMENT
   System Sol
   Date MJD 51982.6968785475
-  Script GunshipMFD/LoadFalconGunship
+  Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
 BEGIN_FOCUS

@@ -5,7 +5,7 @@ SH-01 is deorbiting and out of fuel.
 Use Tether MFD and Attitude MFD to change SH-01's orbit?
 
 
-This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
 
 CARGO:XR5_UCGO_TEU1
@@ -63,7 +63,7 @@ END_DESC
 BEGIN_ENVIRONMENT
   System Sol
   Date MJD 51984.8860101454
-  Script GunshipMFD/LoadFalconGunship
+  Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
 BEGIN_FOCUS

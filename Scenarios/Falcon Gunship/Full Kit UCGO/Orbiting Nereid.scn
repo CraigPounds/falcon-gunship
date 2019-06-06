@@ -26,7 +26,7 @@ Orulex_Collisions_UCGO
 https://www.orbithangar.com/searchid.php?ID=4433
 
 
-This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
 
 CARGO:XR5_UCGO_TEU1
@@ -78,7 +78,7 @@ END_DESC
 BEGIN_ENVIRONMENT
   System Sol
   Date MJD 60371.5141980668
-  Script GunshipMFD/LoadFalconGunship
+  Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
 BEGIN_FOCUS
@@ -92,8 +92,9 @@ BEGIN_CAMERA
   TRACKMODE GlobalFrame
   FOV 40.00
   BEGIN_PRESET
-    Ground:FalconGunship:40.00:Nereid 81.94390 40.82436 2339.38
-    Ground:FalconGunship:40.00:Nereid 81.96220 40.82315 45.87
+    Ground:MillenniumFalcon:40.00:Nereid 64.68120 26.14547 13241.10
+    Ground:MillenniumFalcon:40.00:Nereid 81.94390 40.82436 2339.38
+    Ground:MillenniumFalcon:40.00:Nereid 81.96220 40.82315 45.87
   END_PRESET
 END_CAMERA
 
@@ -350,23 +351,22 @@ RMS:URMS
 END
 DG-01:DeltaGlider
   STATUS Orbiting Nereid
-  RPOS -169058.93 43775.22 33695.17
-  RVEL 20.116 65.466 15.845
-  AROT 65.27 -17.30 -94.03
+  RPOS -172465.93 26632.93 33662.42
+  RVEL -2.188 49.289 -50.014
+  AROT -63.48 1.25 -75.62
   AFCMODE 7
   PRPLEVEL 0:1.000000 1:1.000000
   NAVFREQ 638 637 636 0
   XPDR 639
   RCOVER 1 1.0000
-  SKIN BLUE
   TRIM -0.078141
   AAP 0:0 0:0 0:0
 END
 DG-02:DeltaGlider
   STATUS Orbiting Nereid
-  RPOS -169093.06 43664.02 33668.25
-  RVEL 20.071 65.477 15.854
-  AROT 65.27 -17.30 -94.03
+  RPOS -173056.38 26448.02 31777.96
+  RVEL -2.180 49.646 -50.164
+  AROT 116.88 -2.06 -103.20
   AFCMODE 7
   PRPLEVEL 0:1.000000 1:1.000000
   NAVFREQ 639 637 636 0

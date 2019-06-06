@@ -23,7 +23,7 @@ https://www.orbithangar.com/searchid.php?ID=6999
 Defenders test and demonstration. There are two of them west, just ahead. It's better to use ECM MFD to locate RF threat sources and tune the missiles. Double click 'JAM' on the ECM MFD to turn off your transponder and stop giving clues of your position to the defenders. Check Bombsight MFD documentation for the use of ECM MFD and AGM 88 HARM missiles.Using ECM MFD Jamming improves the chance you are not tracked or hit but exposes you to the defenders' Radar Warning Receiver. Using the Ground Radar exposes you as well. The longer you are tracked the more the enemy gets aware of your presence and becomes smarter.
 
 
-This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
 
 SPOT:spotlight2
@@ -65,7 +65,7 @@ END_DESC
 BEGIN_ENVIRONMENT
   System Sol
   Date MJD 51982.6800933964
-  Script GunshipMFD/LoadFalconGunship
+  Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
 BEGIN_FOCUS

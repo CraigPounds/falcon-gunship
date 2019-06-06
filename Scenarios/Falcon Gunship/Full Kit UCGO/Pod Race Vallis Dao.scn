@@ -20,7 +20,7 @@ DG-03:Deltaglider  FLIGHTDATA
 
 SH-01:ShuttleA
 
-PB-01:ShuttlePB
+PB-01:ShuttlePB  FLIGHTDATA
 
 
 *For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
@@ -544,5 +544,6 @@ PB-01:ShuttlePB
   AFCMODE 7
   PRPLEVEL 0:1.000000
   NAVFREQ 0 0
+  FLIGHTDATA
 END
 END_SHIPS

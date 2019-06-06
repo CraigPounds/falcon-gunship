@@ -23,7 +23,7 @@ http://orbiter.dansteph.com/forum/index.php?page=download
 Mother ship - Arrow Freighter, Action Areas senario.
 
 
-This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
 
 AR01:UCGO\Vessels\UCGOArrowFreighter
@@ -75,7 +75,7 @@ END_DESC
 BEGIN_ENVIRONMENT
   System Sol
   Date MJD 52400.5853555291
-  Script GunshipMFD/LoadMF
+  Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
 BEGIN_FOCUS

@@ -1,5 +1,5 @@
 BEGIN_DESC
-This scenario uses Script GunshipMFD/LoadFalconGunship and includes the vessels
+This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
 
 SPOT:spotlight2
@@ -41,7 +41,7 @@ END_DESC
 BEGIN_ENVIRONMENT
   System Sol
   Date MJD 56284.7499937854
-  Script GunshipMFD/LoadFalconGunship
+  Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
 BEGIN_FOCUS
