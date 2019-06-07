@@ -2,7 +2,7 @@ BEGIN_HYPERDESC
 <!--Orbiter 2016 description-->
 <h1>Falcon Gunship Full Kit UCGO</h1>
 <p>The Falcon Gunship is fully armed, loaded and ready for cargo.</p>
-<p>For UMMU support install <a href="https://www.orbithangar.com/searchid.php?ID=3509">UMMUFA v.2.0</a> (not required for scenarios to work) - be sure any docking port you want to enter is selected, before trying to enter it (something i often forget)</p>
+<p>For UMMU support install <a href="https://www.orbithangar.com/searchid.php?ID=3509">UMMUFA v.2.0</a> (not required for scenarios to work)</p>
 END_HYPERDESC
 
 BEGIN_DESC
@@ -12,7 +12,7 @@ Falcon Gunship Full Kit
 The Falcon Gunship is fully armed, loaded and ready for cargo.
 
 
-For UMMU support install UMMUFA v.2.0 (not required for scenarios to work) - be sure any docking port you want to enter is selected, before trying to enter it (something i often forget)
+For UMMU support install UMMUFA v.2.0 (not required for scenarios to work)
 
 
 https://www.orbithangar.com/searchid.php?ID=3509

@@ -247,6 +247,8 @@ https://www.orbithangar.com/searchid.php?ID=5712
 UMMUFA v.2.0 
 https://www.orbithangar.com/searchid.php?ID=3509
 
+*Be sure any docking port you want to enter is selected, before trying to enter it - something i often forget ;)
+
 Orulex_Land_Gen-v1.2
 https://www.orbithangar.com/searchid.php?ID=2686
 
@@ -255,7 +257,6 @@ https://www.orbithangar.com/searchid.php?ID=4433
 
 Additional Orulex heightmaps can be found at the Orulex-OrbiterWiki page Additional links section
 https://www.orbiterwiki.org/wiki/Orulex#Additional_links
-
 
 Venus Heightmap
 https://www.orbithangar.com/searchid.php?ID=5903

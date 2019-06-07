@@ -18,7 +18,7 @@ BEGIN_FalconGunship
 END_FalconGunship
 
 
-*Missile MFD is not open at start - there seems to be a bug if it is loaded at the beginning of the simulation.
+*Missile MFD is not open at start - there seems to be a bug if it is loaded at the beginning of the simulation (i don't think it likes to be opened while landed either)
 
 
 This scenario includes the vessels
