@@ -245,19 +245,6 @@ AGM_881:AGM_88
   PRPLEVEL 0:1.000000 2:1.000000
   NAVFREQ 0
 END
-CARGO:XR5_UCGO_TEU1
-  STATUS Orbiting Earth
-  RPOS 2212468.72 313396.85 -6151225.61
-  RVEL 7213.228 729.330 2662.465
-  AROT 12.58 -67.71 77.44
-  ATTACHED 0:0,FalconGunship
-  AFCMODE 5
-  NAVFREQ 0 0
-  DoorM 0 0.0000
-  UCGO @@0,1,1,1048,CargoSpaceFuel,@@1,1,0,0,@@2,1,0,0,@@3,1,0,0,@@4,1,0,0,@@5,1,0,0,
-  UCGO @@6,1,1,38,CargoLandingBeacon,@@7,1,1,356,CargoProbeUMmu,@@8,1,1,157,CargoRescueBoatUMmu,
-  UCGO @@9,1,0,0,@@10,1,0,0,@@11,1,0,0,@@12,1,0,0,@@13,1,0,0,@@14,1,0,0,@@15,1,0,0,
-END
 SPOT:spotlight2
   STATUS Orbiting Earth
   RPOS 2212468.72 313396.85 -6151225.61
@@ -267,6 +254,16 @@ SPOT:spotlight2
   AFCMODE 7
   NAVFREQ 0 0
   SPT 0 1000.0000 0.6807
+END
+CARGO:XR5_UCGO_TEU1
+  STATUS Orbiting Earth
+  ATTACHED 0:0,FalconGunship
+  AFCMODE 7
+  NAVFREQ 0 0
+  DoorM 0 0.0000
+  UCGO @@0,1,0,0,@@1,1,0,0,@@2,1,0,0,@@3,1,0,0,@@4,1,0,0,@@5,1,0,0,@@6,1,0,0,@@7,1,0,0,
+  UCGO @@8,1,0,0,@@9,1,0,0,@@10,1,0,0,@@11,1,0,0,@@12,1,0,0,@@13,1,0,0,@@14,1,0,0,
+  UCGO @@15,1,0,0,
 END
 FalconGunship:FalconGunship
   STATUS Orbiting Earth

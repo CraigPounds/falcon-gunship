@@ -19,7 +19,10 @@ SH-01:ShuttleA
 PB-01:ShuttlePB
 
 
-*When saving scenarios with the URMS, an attachment point is added to the scenario file for it. Unless removed, with a text editor, the attachment point will break the saved scenario.
+*If needed, close URMS dialog box by clicking on it and then pressing Alt + F4.
+
+
+**When saving scenarios with the URMS, an attachment point is added to the scenario file for it. Unless removed, with a text editor, the attachment point will break the saved scenario.
 END_DESC
 
 BEGIN_ENVIRONMENT
