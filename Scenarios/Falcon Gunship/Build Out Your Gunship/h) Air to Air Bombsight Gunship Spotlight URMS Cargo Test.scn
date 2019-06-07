@@ -1,45 +1,29 @@
 BEGIN_DESC
-*This scenario requires 
+*Adapted from Beep's GunshipMFD Air to Air Test scenario...
 
 
-Makeshift Targets 1.6
-
-
-https://www.orbithangar.com/searchid.php?ID=6793
-
-
-and
-
-
-Makeshift Defenders 1.1
-
-
-https://www.orbithangar.com/searchid.php?ID=6999
-
-
-*Adapted from Beep's DG Against Defenders at Sea scenario.
-
-
-Defenders test and demonstration. There is one of them north, just ahead. It's better to use ECM MFD to locate RF threat sources and tune the missiles. Double click 'JAM' on the ECM MFD to turn off your transponder and stop giving clues of your position to the defenders. Check Bombsight MFD documentation for the use of ECM MFD and AGM 88 HARM missiles.Using ECM MFD Jamming improves the chance you are not tracked or hit but exposes you to the defenders' Radar Warning Receiver. Using the Ground Radar exposes you as well. The longer you are tracked the more the enemy gets aware of your presence and becomes smarter.
+Select and enable your guns and approach the aircraft in front of you. Fire a barrage shot in its path to bring it down.
 
 
 This scenario uses Script GunshipMFD/FalconGunshipStp and includes the vessels
 
+
+DG-01:Deltaglider
+
+DG-02:Deltaglider
+
+CARGO:XR5_UCGO_TEU1
 
 SPOT:spotlight2
 
 FalconGunship:FalconGunship
 
 RMS:URMS
-
-DG-01:DeltaGlider
-
-Target:DEF_SHIP_1
 END_DESC
 
 BEGIN_ENVIRONMENT
   System Sol
-  Date MJD 51982.6820250541
+  Date MJD 51982.6968785475
   Script GunshipMFD/FalconGunshipStp
 END_ENVIRONMENT
 
@@ -54,20 +38,51 @@ BEGIN_CAMERA
 END_CAMERA
 
 BEGIN_HUD
-  TYPE Surface
+  TYPE Docking
+  NAV 0
 END_HUD
 
 BEGIN_MFD Left
-  TYPE User
-  MODE ECMMFD
+  TYPE Surface
+  SPDMODE 1
 END_MFD
 
 BEGIN_MFD Right
   TYPE User
-  MODE BombsightMFD
+  MODE GunshipMFD
 END_MFD
 
 BEGIN_SHIPS
+DG-01:Deltaglider
+  STATUS Orbiting Earth
+  RPOS 5318282.206 3502491.393 -340802.424
+  RVEL 131.8580 -117.9935 693.2107
+  AROT 7.152 -1.533 98.855
+  VROT 1.1319 -1.0485 -0.0085
+  AFCMODE 7
+  PRPLEVEL 0:0.691474 1:0.998324
+  THLEVEL 0:0.768908 1:0.768908
+  NAVFREQ 0 0 0 0
+  XPDR 0
+  HOVERHOLD 0 1 0.0000e+000 0.0000e+000
+  TRIM 0.436020
+  AAP 0:0 0:0 0:0
+END
+DG-02:Deltaglider
+  STATUS Orbiting Earth
+  RPOS 5318413.900 3502225.665 -341980.177
+  RVEL 123.4391 -94.5329 695.4528
+  AROT 10.994 -0.118 100.597
+  VROT 1.2513 -1.0617 -0.0090
+  AFCMODE 7
+  PRPLEVEL 0:0.652886 1:0.971469
+  THLEVEL 0:0.797725 1:0.797725
+  NAVFREQ 0 0 0 0
+  XPDR 0
+  HOVERHOLD 0 1 0.0000e+000 0.0000e+000
+  TRIM 0.441568
+  AAP 0:0 0:0 0:0
+END
 37mm_1:37mm
   STATUS Orbiting Earth
   AFCMODE 7
@@ -222,12 +237,18 @@ AGM_881:AGM_88
   PRPLEVEL 0:1.000000 2:1.000000
   NAVFREQ 0
 END
+CARGO:XR5_UCGO_TEU1
+  STATUS Orbiting Earth
+  ATTACHED 0:0,FalconGunship
+  AFCMODE 7
+  NAVFREQ 0 0
+  DoorM 0 0.0000
+  UCGO @@0,1,0,0,@@1,1,0,0,@@2,1,0,0,@@3,1,0,0,@@4,1,0,0,@@5,1,0,0,@@6,1,0,0,@@7,1,0,0,
+  UCGO @@8,1,0,0,@@9,1,0,0,@@10,1,0,0,@@11,1,0,0,@@12,1,0,0,@@13,1,0,0,@@14,1,0,0,
+  UCGO @@15,1,0,0,
+END
 SPOT:spotlight2
   STATUS Orbiting Earth
-  RPOS 5050061.226 3671993.243 -1267175.253
-  RVEL 88.5100 47.2500 479.2800
-  AROT 53.818 23.427 59.515
-  VROT 0.1095 -0.0399 -0.3849
   ATTACHED 0:1,FalconGunship
   AFCMODE 7
   NAVFREQ 0 0
@@ -235,22 +256,21 @@ SPOT:spotlight2
 END
 FalconGunship:FalconGunship
   STATUS Orbiting Earth
-  RPOS 5050065.700 3671986.200 -1267180.800
-  RVEL 88.5100 47.2500 479.2800
-  AROT 53.818 23.427 59.515
-  VROT 0.1095 -0.0399 -0.3849
-  AFCMODE 2
-  PRPLEVEL 0:0.991589
-  THLEVEL 15:0.000015 18:0.000015
+  RPOS 5318402.140 3502216.073 -342032.475
+  RVEL 110.4061 -100.3269 656.9077
+  AROT 13.784 2.941 101.174
+  VROT -0.0455 -0.0134 0.3354
+  AFCMODE 7
+  PRPLEVEL 0:0.992736
   IDS 0:588 100 1:586 100
   NAVFREQ 562 560
   XPDR 522
   CONFIGURATION 1
   CURRENT_PAYLOAD 0
-  SEQ 0 -2 0.002828
-  SEQ 1 -2 0.008665
-  SEQ 2 -2 0.016740
-  SEQ 3 2 0.998680
+  SEQ 0 -2 0.000000
+  SEQ 1 -2 0.000000
+  SEQ 2 -2 0.000000
+  SEQ 3 2 1.000000
   SEQ 4 -2 0.002571
   SEQ 5 -2 0.000000
   SEQ 6 -2 0.002593
@@ -258,10 +278,6 @@ FalconGunship:FalconGunship
 END
 RMS:URMS
   STATUS Orbiting Earth
-  RPOS 5050070.686 3671981.472 -1267179.261
-  RVEL 88.5100 47.2500 479.2800
-  AROT -23.008 -27.742 63.306
-  VROT 0.3849 -0.0399 0.1095
   AFCMODE 7
   NAVFREQ 0 0
   MAIN_STATUS 0
@@ -283,31 +299,5 @@ RMS:URMS
   CARGO_PARAMS -9.94 6.19 64.75
   FLASH_OFF 1
   IK_PARAMS 0 0.00000 0.00000 0.000
-END
-DG-01:DeltaGlider
-  STATUS Orbiting Earth
-  RPOS 5049933.825 3672235.711 -1266976.577
-  RVEL 88.8044 47.8240 479.0001
-  AROT 53.818 23.429 59.515
-  VROT 0.1594 -0.0408 -0.0001
-  RCSMODE 0
-  AFCMODE 7
-  PRPLEVEL 0:0.904666 1:1.000000
-  THLEVEL 0:0.328000 1:0.328000
-  NAVFREQ 94 524 84 114
-  XPDR 0
-  HOVERHOLD 0 1 0.0000e+000 0.0000e+000
-  TRIM 0.150185
-  AAP 0:0 0:0 0:0
-END
-Target:DEF_SHIP_1
-  STATUS Landed Earth
-  POS -85.0000000 27.3000000
-  HEADING 270.00
-  ALT -0.164
-  AROT -180.000 85.000 117.300
-  AFCMODE 7
-  NAVFREQ 0 0
-  XPDR 514
 END
 END_SHIPS

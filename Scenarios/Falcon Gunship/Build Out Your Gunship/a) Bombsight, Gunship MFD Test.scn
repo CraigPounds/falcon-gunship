@@ -64,6 +64,9 @@ DGS-01:DG-S
 SH-01:ShuttleA
 
 PB-01:ShuttlePB
+
+
+Press SEL, SET then SEL, SET then FIR to fire M230 chain guns (take care not to shoot off your landing gear).
 END_DESC
 
 BEGIN_ENVIRONMENT

@@ -33,29 +33,6 @@ HST:HST
 Luna-OB1:Wheel
 
 SH-01:ShuttleA
-
-
-*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
-
-
-ATTACHED 0:3,FalconGunship
-
-to
-
-ATTACHED 0:4,FalconGunship
-
-
-This breaks the saved scenario :(
-
-
-Coincidentally, to make this scenario compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
-
-
-ATTACHED 0:3,FalconGunship
-
-to
-
-ATTACHED 0:4,FalconGunship
 END_DESC
 
 BEGIN_ENVIRONMENT
@@ -293,7 +270,7 @@ FalconGunship:FalconGunship
   SEQ 0 -2 0.000091
   SEQ 1 -2 0.005657
   SEQ 2 -2 0.003431
-  SEQ 3 -2 0.003152
+  SEQ 3 2 1.000000
   SEQ 4 -2 0.001947
   SEQ 5 2 0.770654
   SEQ 6 -2 0.002593
@@ -304,7 +281,6 @@ RMS:URMS
   RPOS 2212468.72 313396.85 -6151225.61
   RVEL 7213.228 729.330 2662.465
   AROT 12.58 -67.71 77.44
-  ATTACHED 0:3,FalconGunship
   AFCMODE 5
   NAVFREQ 0 0
   MAIN_STATUS 0

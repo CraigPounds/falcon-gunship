@@ -47,29 +47,6 @@ Decider:stardestroyer
 Star_Killer:stardestroyer
 
 Executor:stardestroyer
-
-
-*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
-
-
-ATTACHED 0:3,FalconGunship
-
-to
-
-ATTACHED 0:4,FalconGunship
-
-
-This breaks the saved scenario :(
-
-
-Coincidentally, to make this scenario compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
-
-
-ATTACHED 0:3,FalconGunship
-
-to
-
-ATTACHED 0:4,FalconGunship
 END_DESC
 
 BEGIN_ENVIRONMENT
@@ -503,7 +480,6 @@ RMS:URMS
   STATUS Landed Earth
   POS -80.6759384 28.5227180
   HEADING 165.19
-  ATTACHED 0:4,FalconGunship
   AFCMODE 5
   NAVFREQ 0 0
   MAIN_STATUS 0

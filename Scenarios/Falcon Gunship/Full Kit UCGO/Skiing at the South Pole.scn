@@ -13,6 +13,8 @@ Open Teather MFD and press V+ to cycle to vessel UMMU.
 
 Press L- to reduce tether link to ~ 23m.
 
+Press F- to reduce force to ~ 250-300N.
+
 Press JOI to join UMMU to UtilCar with tether.
 
 Start engine (press s).
@@ -70,9 +72,9 @@ BEGIN_FOCUS
 END_FOCUS
 
 BEGIN_CAMERA
-  TARGET FalconGunship
+  TARGET UtilCar
   MODE Extern
-  POS 11.72 162.07 -4.15
+  POS 7.36 -133.57 -10.88
   TRACKMODE AbsoluteDirection
   FOV 30.00
 END_CAMERA
@@ -298,7 +300,6 @@ RMS:URMS
   STATUS Landed Earth
   POS -170.6720502 -89.9973296
   HEADING 183.39
-  ATTACHED 0:4,FalconGunship
   AFCMODE 7
   NAVFREQ 0 0
   MAIN_STATUS 0

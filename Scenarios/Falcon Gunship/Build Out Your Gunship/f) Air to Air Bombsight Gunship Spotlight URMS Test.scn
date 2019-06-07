@@ -12,36 +12,11 @@ DG-01:Deltaglider
 
 DG-02:Deltaglider
 
-CARGO:XR5_UCGO_TEU1
-
 SPOT:spotlight2
 
 FalconGunship:FalconGunship
 
 RMS:URMS
-
-
-*For Orbiter 2016 close URMS dialog by using Alt + F4 (with mouse focus on the dialog) when needed. Also, when saving scenarios in Orbiter 2016, ATTACHED for the URMS is being changed from 
-
-
-ATTACHED 0:3,FalconGunship
-
-to
-
-ATTACHED 0:4,FalconGunship
-
-
-This breaks the saved scenario :(
-
-
-Coincidentally, to make this scenario compatible with Orbiter 2010, ATTACHED for the URMS needs to be manually edited from 
-
-
-ATTACHED 0:3,FalconGunship
-
-to
-
-ATTACHED 0:4,FalconGunship
 END_DESC
 
 BEGIN_ENVIRONMENT
@@ -260,16 +235,6 @@ AGM_881:AGM_88
   PRPLEVEL 0:1.000000 2:1.000000
   NAVFREQ 0
 END
-CARGO:XR5_UCGO_TEU1
-  STATUS Orbiting Earth
-  ATTACHED 0:0,FalconGunship
-  AFCMODE 7
-  NAVFREQ 0 0
-  DoorM 0 0.0000
-  UCGO @@0,1,0,0,@@1,1,0,0,@@2,1,0,0,@@3,1,0,0,@@4,1,0,0,@@5,1,0,0,@@6,1,0,0,@@7,1,0,0,
-  UCGO @@8,1,0,0,@@9,1,0,0,@@10,1,0,0,@@11,1,0,0,@@12,1,0,0,@@13,1,0,0,@@14,1,0,0,
-  UCGO @@15,1,0,0,
-END
 SPOT:spotlight2
   STATUS Orbiting Earth
   ATTACHED 0:1,FalconGunship
@@ -301,7 +266,6 @@ FalconGunship:FalconGunship
 END
 RMS:URMS
   STATUS Orbiting Earth
-  ATTACHED 0:3,FalconGunship
   AFCMODE 7
   NAVFREQ 0 0
   MAIN_STATUS 0
