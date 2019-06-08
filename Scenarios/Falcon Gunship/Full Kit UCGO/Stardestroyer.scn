@@ -70,12 +70,12 @@ END_CAMERA
 BEGIN_MFD Left
   TYPE HSI
   NAV 0 1
-  OBS 5.76 2.23
+  OBS 2.20 2.20
 END_MFD
 
 BEGIN_MFD Right
-  TYPE Surface
-  SPDMODE 1
+  TYPE Launch
+  NAV 1
 END_MFD
 
 BEGIN_VC
@@ -461,7 +461,7 @@ FalconGunship:FalconGunship
   AFCMODE 1
   PRPLEVEL 0:1.000000
   IDS 0:588 10 1:586 10
-  NAVFREQ 98 50
+  NAVFREQ 94 402
   XPDR 513
   RCS 1
   CTRL_SURFACE 1
@@ -511,7 +511,7 @@ Avenger:stardestroyer
   AFCMODE 7
   PRPLEVEL 0:1.000000
   IDS 0:51 100 1:52 100 2:53 100 3:54 10 4:55 10
-  NAVFREQ 0 0
+  NAVFREQ 513 60
   XPDR 50
 END
 Final_Victory:stardestroyer
@@ -523,7 +523,7 @@ Final_Victory:stardestroyer
   AFCMODE 7
   PRPLEVEL 0:1.000000
   IDS 0:61 100 1:62 100 2:63 100 3:54 10 4:55 10
-  NAVFREQ 0 0
+  NAVFREQ 513 70
   XPDR 60
 END
 Tallos_Star:stardestroyer
@@ -535,7 +535,7 @@ Tallos_Star:stardestroyer
   AFCMODE 7
   PRPLEVEL 0:1.000000
   IDS 0:71 100 1:72 100 2:73 100 3:54 10 4:55 10
-  NAVFREQ 0 0
+  NAVFREQ 513 80
   XPDR 70
 END
 Decider:stardestroyer
@@ -547,7 +547,7 @@ Decider:stardestroyer
   AFCMODE 7
   PRPLEVEL 0:1.000000
   IDS 0:81 100 1:82 100 2:83 100 3:54 10 4:55 10
-  NAVFREQ 0 0
+  NAVFREQ 513 90
   XPDR 80
 END
 Star_Killer:stardestroyer
@@ -559,7 +559,7 @@ Star_Killer:stardestroyer
   AFCMODE 7
   PRPLEVEL 0:1.000000
   IDS 0:91 100 1:92 100 2:93 100 3:54 10 4:55 10
-  NAVFREQ 0 0
+  NAVFREQ 513 98
   XPDR 90
 END
 Executor:stardestroyer
@@ -569,7 +569,7 @@ Executor:stardestroyer
   AFCMODE 7
   PRPLEVEL 0:1.000000
   IDS 0:95 100 1:96 100 2:96 100 3:54 10 4:55 10
-  NAVFREQ 0 0
+  NAVFREQ 513 94
   XPDR 98
 END
 END_SHIPS

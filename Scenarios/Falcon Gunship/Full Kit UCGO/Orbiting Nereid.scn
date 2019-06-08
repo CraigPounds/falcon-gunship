@@ -37,11 +37,9 @@ FalconGunship:FalconGunship  FLIGHTDATA
 
 RMS:URMS
 
-Decider:stardestroyer
+Executor:stardestroyer
 
 Avenger:stardestroyer
-
-Executor:stardestroyer
 
 SH-01:ShuttleA
 
@@ -66,6 +64,15 @@ BEGIN_CAMERA
   POS 13.91 -107.40 79.61
   TRACKMODE GlobalFrame
   FOV 40.00
+  BEGIN_PRESET
+    Ground:FalconGunship:40.00:Nereid 64.34024 26.45647 13151.73
+    Ground:FalconGunship:40.00:Nereid 63.93692 27.52989 12983.73
+    Ground:FalconGunship:40.00:Nereid 65.93031 37.27810 2963.85
+    Ground:FalconGunship:40.00:Nereid 73.16157 39.96398 4925.23
+    Ground:FalconGunship:40.00:Nereid 80.25307 40.94057 5090.78
+    Ground:FalconGunship:40.00:Nereid 81.89589 40.57049 3494.64
+    Ground:FalconGunship:40.00:Nereid 81.96041 40.80376 13.00
+  END_PRESET
 END_CAMERA
 
 BEGIN_HUD
@@ -74,22 +81,16 @@ BEGIN_HUD
 END_HUD
 
 BEGIN_MFD Left
-  TYPE Map
-  REF Nereid
-  POS 0.00 0.00
-  DISP 1071
+  TYPE Surface
+  SPDMODE 1
 END_MFD
 
 BEGIN_MFD Right
   TYPE Orbit
   PROJ Frame
   FRAME Ecliptic
-  ALT
   REF Nereid
 END_MFD
-
-BEGIN_VC
-END_VC
 
 BEGIN_SHIPS
 37mm_1:37mm
@@ -309,7 +310,7 @@ RMS:URMS
   FLASH_OFF 1
   IK_PARAMS 0 0.00000 0.00000 0.000
 END
-Decider:stardestroyer
+Executor:stardestroyer
   STATUS Orbiting Nereid
   RPOS -172603.21 26581.31 33727.04
   RVEL -2.183 49.468 -50.103
@@ -331,17 +332,6 @@ Avenger:stardestroyer
   NAVFREQ 0 0
   XPDR 540
 END
-Executor:stardestroyer
-  STATUS Orbiting Nereid
-  RPOS -203617.57 -58380.45 97061.06
-  RVEL 205.979 619.928 -474.359
-  AROT 126.53 -16.14 -105.58
-  RCSMODE 2
-  PRPLEVEL 0:1.000
-  IDS 0:51 100 1:52 100 2:53 100 3:54 100 4:55 100
-  NAVFREQ 522 0
-  XPDR 580
-END
 SH-01:ShuttleA
   STATUS Orbiting Nereid
   RPOS -173054.40 26509.50 31747.50
@@ -359,12 +349,12 @@ SH-01:ShuttleA
 END
 SH-02:ShuttleA
   STATUS Orbiting Nereid
-  RPOS -203503.50 -58474.30 97084.30
-  RVEL 205.980 619.930 -474.360
-  AROT 126.53 -16.14 -105.58
+  RPOS -172464.200 26502.800 33726.500
+  RVEL -2.1800 49.4700 -50.1000
+  AROT 116.520 -1.250 -104.380
   AFCMODE 7
   PRPLEVEL 0:1.000 1:0.993
-  NAVFREQ 522 580
+  NAVFREQ 540 522
   XPDR 639
   PODANGLE 0.0000 0.0000
   DOCKSTATE 0 0.0000
@@ -374,11 +364,11 @@ SH-02:ShuttleA
 END
 PB-01:ShuttlePB
   STATUS Orbiting Nereid
-  RPOS -172465.93 26632.93 33662.42
-  RVEL -2.188 49.289 -50.014
-  AROT -63.48 1.25 -75.62
+  RPOS -173188.06 26579.23 31747.28
+  RVEL -2.187 49.468 -50.073
+  AROT 116.88 -2.06 -103.20
   AFCMODE 7
   PRPLEVEL 0:1.000000
-  NAVFREQ 522 540
+  NAVFREQ 540 522
 END
 END_SHIPS
