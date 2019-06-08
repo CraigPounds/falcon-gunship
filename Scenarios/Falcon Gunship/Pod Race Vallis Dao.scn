@@ -1,31 +1,8 @@
 BEGIN_DESC
-Pod race begins in T - 30.
+This playback scenario is only working for Orbiter 2016 :(
 
 
-Vinka's Spacecraft4 is required.
-
-
-http://francophone.dansteph.com/?page=addon&id=202
-
-
-Animation Controls (Num Lock must be off)
-
-
-LShift + Numpad 1 = Radar Dish Deploy
-
-LShift + Numpad 3 = Radar Dish Rotate
-
-LShift + Numpad 5 = Fire Blasters
-
-LShift + Numpad 7 = Rotate Top Turret
-
-LShift + Numpad 9 = Rotate Bottom Turret
-
-g = Gear
-
-k = Gangway
-
-j = Jettison
+Pod race begins in T - 30 seconds...
 
 
 This scenario includes the vessels
@@ -84,7 +61,7 @@ FalconGunship:FalconGunship
   AFCMODE 7
   PRPLEVEL 0:0.992736
   IDS 0:588 100 1:586 100
-  NAVFREQ 560 80
+  NAVFREQ 560 50
   XPDR 522
   CONFIGURATION 1
   CURRENT_PAYLOAD 0
@@ -105,8 +82,8 @@ DG-01:Deltaglider
   AROT -121.224 -32.208 -3.633
   AFCMODE 7
   PRPLEVEL 0:1.000000 1:1.000000
-  NAVFREQ 0 0 0 0
-  XPDR 80
+  NAVFREQ 522 60 0 0
+  XPDR 50
   FLIGHTDATA
   RCOVER 1.0000 0.0000
   HOVERHOLD 0 1 0.0000e+000 0.0000e+000
@@ -122,8 +99,8 @@ DG-02:Deltaglider
   AROT -121.224 -32.208 -3.633
   AFCMODE 7
   PRPLEVEL 0:1.000000 1:1.000000
-  NAVFREQ 0 0 0 0
-  XPDR 80
+  NAVFREQ 522 60 0 0
+  XPDR 70
   FLIGHTDATA
   RCOVER 1.0000 0.0000
   HOVERHOLD 0 1 0.0000e+000 0.0000e+000
@@ -138,7 +115,7 @@ DG-03:Deltaglider
   AROT -121.224 -32.208 -3.633
   AFCMODE 7
   PRPLEVEL 0:1.000000 1:1.000000
-  NAVFREQ 0 0 0 0
+  NAVFREQ 522 60 0 0
   XPDR 80
   FLIGHTDATA
   RCOVER 1.0000 0.0000
@@ -154,8 +131,8 @@ DG-04:Deltaglider
   AROT -121.247 -31.900 -3.623
   AFCMODE 7
   PRPLEVEL 0:1.000000 1:1.000000
-  NAVFREQ 0 0 0 0
-  XPDR 0
+  NAVFREQ 560 50 522 70
+  XPDR 60
   RCOVER 1.0000 0.0000
   HOVERHOLD 0 1 0.0000e+000 0.0000e+000
   GEAR 1.0000 0.0000
@@ -170,7 +147,7 @@ SH-01:ShuttleA
   AROT -121.559 -32.224 -2.917
   AFCMODE 7
   PRPLEVEL 0:1.000000 1:1.000000
-  NAVFREQ 0 0
+  NAVFREQ 522 60
   XPDR 560
   FLIGHTDATA
   PODANGLE 0.0000 0.0000
@@ -188,7 +165,7 @@ PB-01:ShuttlePB
   AROT -122.092 -31.941 -3.175
   AFCMODE 7
   PRPLEVEL 0:1.000000
-  NAVFREQ 0 0
+  NAVFREQ 522 60
   FLIGHTDATA
 END
 END_SHIPS
